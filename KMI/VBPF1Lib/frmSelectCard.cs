@@ -6,11 +6,10 @@ using System.Windows.Forms;
 
 using KMI.Utility;
 
-namespace KMI.VBPF1Lib
-{
+namespace KMI.VBPF1Lib {
 
-    public class frmSelectCard : Form
-    {
+    public class frmSelectCard : Form {
+
         private SortedList accounts;
         private Button btnCancel;
         private Button btnHelp;
@@ -23,22 +22,17 @@ namespace KMI.VBPF1Lib
         private Panel panel1;
         public NumericUpDown updAmount;
 
-        public frmSelectCard(bool credit)
-        {
+        public frmSelectCard(bool credit) {
             this.InitializeComponent();
             this.credit = credit;
-            if (credit)
-            {
+            if (credit) {
                 this.accounts = A.Adapter.GetGoodCreditCardAccounts(A.MainForm.CurrentEntityID);
             }
-            else
-            {
+            else {
                 this.accounts = A.Adapter.GetBankAccounts(A.MainForm.CurrentEntityID);
             }
-            foreach (BankAccount account in this.accounts.Values)
-            {
-                if ((account is CreditCardAccount) || (account is CheckingAccount))
-                {
+            foreach (BankAccount account in this.accounts.Values) {
+                if ((account is CreditCardAccount) || (account is CheckingAccount)) {
                     CardControl control = new CardControl(account);
                     control.Click += new EventHandler(this.Card_Click);
                     control.Location = new Point(((control.Width + 20) * this.panCards.Controls.Count) + 20, 20);
@@ -47,27 +41,21 @@ namespace KMI.VBPF1Lib
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
+        private void btnCancel_Click(object sender, EventArgs e) {
             base.Close();
         }
 
-        private void btnCancel_Click_1(object sender, EventArgs e)
-        {
+        private void btnCancel_Click_1(object sender, EventArgs e) {
             base.Close();
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
-        {
+        private void btnHelp_Click(object sender, EventArgs e) {
             KMIHelp.OpenHelp(A.Resources.GetString("Pay Bills"));
         }
 
-        private void btnOK_Click(object sender, EventArgs e)
-        {
-            foreach (CardControl control in this.panCards.Controls)
-            {
-                if (control.Selected)
-                {
+        private void btnOK_Click(object sender, EventArgs e) {
+            foreach (CardControl control in this.panCards.Controls) {
+                if (control.Selected) {
                     this.Card = control.Account;
                     base.Close();
                     return;
@@ -76,46 +64,36 @@ namespace KMI.VBPF1Lib
             MessageBox.Show(A.Resources.GetString("Please select a card by clicking on it."), A.Resources.GetString("Input Required"));
         }
 
-        private void Card_Click(object sender, EventArgs e)
-        {
-            foreach (CardControl control in this.panCards.Controls)
-            {
+        private void Card_Click(object sender, EventArgs e) {
+            foreach (CardControl control in this.panCards.Controls) {
                 control.Selected = control == sender;
             }
             this.Refresh();
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (this.components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (this.components != null)) {
                 this.components.Dispose();
             }
             base.Dispose(disposing);
         }
 
-        private void frmSelectCard_Load(object sender, EventArgs e)
-        {
-            if (this.panCards.Controls.Count == 0)
-            {
-                if (this.credit)
-                {
+        private void frmSelectCard_Load(object sender, EventArgs e) {
+            if (this.panCards.Controls.Count == 0) {
+                if (this.credit) {
                     MessageBox.Show(A.Resources.GetString("You do not have any credit cards. To get a credit card, click on a bank in the City View."), A.Resources.GetString("No Card"));
                 }
-                else
-                {
+                else {
                     MessageBox.Show(A.Resources.GetString("You do not have any debit cards. To get a debit card, click on a bank in the City View and open a checking account."), A.Resources.GetString("No Card"));
                 }
                 base.Close();
             }
-            if (this.panCards.Controls.Count == 1)
-            {
+            if (this.panCards.Controls.Count == 1) {
                 ((CardControl) this.panCards.Controls[0]).Selected = true;
             }
         }
 
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             this.panel1 = new Panel();
             this.btnCancel = new Button();
             this.btnHelp = new Button();
