@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD817AF4-7918-490D-823C-9F3D7FE68C1F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>KMI.Sim</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ICSharpCode.SharpZipLib" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="KMI\Sim\S.cs" />
+    <Compile Include="KMI\Sim\Page.cs" />
+    <Compile Include="KMI\Sim\frmPlayMacro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\SimState.cs" />
+    <Compile Include="KMI\Sim\frmStartChoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmJoinMultiplayerSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\SimApplicationException.cs" />
+    <Compile Include="KMI\Sim\SimConstants.cs" />
+    <Compile Include="KMI\Sim\PlayerMessage.cs" />
+    <Compile Include="KMI\Sim\ActiveObject.cs" />
+    <Compile Include="KMI\Sim\NotificationColor.cs" />
+    <Compile Include="KMI\Sim\GeneralLedger.cs" />
+    <Compile Include="KMI\Sim\ModalMessage.cs" />
+    <Compile Include="KMI\Sim\GameOverMessage.cs" />
+    <Compile Include="KMI\Sim\frmEditSimSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\ComplaintBuffer.cs" />
+    <Compile Include="KMI\Sim\SimEngine.cs" />
+    <Compile Include="KMI\Sim\MovableActiveObject.cs" />
+    <Compile Include="KMI\Sim\Person.cs" />
+    <Compile Include="KMI\Sim\JournalEntry.cs" />
+    <Compile Include="KMI\Sim\frmUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\IActionForm.cs" />
+    <Compile Include="KMI\Sim\frmStartMultiplayerSession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmRunTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmDrawnReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\MessageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\PlaySoundDelegate.cs" />
+    <Compile Include="KMI\Sim\PlayerMessageDelegate.cs" />
+    <Compile Include="KMI\Sim\ModalMessageDelegate.cs" />
+    <Compile Include="KMI\Sim\SimStateAdapter.cs" />
+    <Compile Include="KMI\Sim\NodeV2.cs" />
+    <Compile Include="KMI\Sim\frmLessonsSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmActionsJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\PathV2.cs" />
+    <Compile Include="KMI\Sim\MacroAction.cs" />
+    <Compile Include="KMI\Sim\StopDateReachedMessage.cs" />
+    <Compile Include="KMI\Sim\ToolbarSponsored.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\MapV2.cs" />
+    <Compile Include="KMI\Sim\frmExceptionHandler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Map.cs" />
+    <Compile Include="KMI\Sim\Journal.cs" />
+    <Compile Include="KMI\Sim\frmProvideCash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmMessageBoxWithOptOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\View.cs" />
+    <Compile Include="KMI\Sim\PropertyEventHandler.cs" />
+    <Compile Include="KMI\Sim\Simulator.cs" />
+    <Compile Include="KMI\Sim\Resource.cs" />
+    <Compile Include="KMI\Sim\MultiplayerRole.cs" />
+    <Compile Include="KMI\Sim\SimSettings.cs" />
+    <Compile Include="KMI\Sim\frmScoreboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\ClientEventHandlers.cs" />
+    <Compile Include="KMI\Sim\UserAdminSettings.cs" />
+    <Compile Include="KMI\Sim\Place.cs" />
+    <Compile Include="KMI\Sim\frmSetupWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmMultiplayerRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\SimFactory.cs" />
+    <Compile Include="KMI\Sim\PlayerType.cs" />
+    <Compile Include="KMI\Sim\Player.cs" />
+    <Compile Include="KMI\Sim\IConstrainedForm.cs" />
+    <Compile Include="KMI\Sim\frmMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmCreateMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\SimSpeed.cs" />
+    <Compile Include="KMI\Sim\frmUploadAlternative.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\frmMainBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\EntityNotFoundException.cs" />
+    <Compile Include="KMI\Sim\Entity.cs" />
+    <Compile Include="KMI\Sim\RunToDateReachedMessage.cs" />
+    <Compile Include="KMI\Sim\Academics\LevelEndTestMessage.cs" />
+    <Compile Include="KMI\Sim\Academics\ShowPageMessage.cs" />
+    <Compile Include="KMI\Sim\Academics\PageBank.cs" />
+    <Compile Include="KMI\Sim\Academics\frmPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\TestResultControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\Question.cs" />
+    <Compile Include="KMI\Sim\Academics\Level.cs" />
+    <Compile Include="KMI\Sim\Academics\Page.cs" />
+    <Compile Include="KMI\Sim\Academics\frmTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\frmChooseMathPack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\frmQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\QuestionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Academics\AcademicGod.cs" />
+    <Compile Include="KMI\Sim\Drawables\Drawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\PageDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\TextDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\AlphaDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\PolygonDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\FlexDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\RectangleDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\CommentDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\PixelDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\CompoundDrawable.cs" />
+    <Compile Include="KMI\Sim\Drawables\LineDrawable.cs" />
+    <Compile Include="KMI\Sim\Queues\SimQueueSegment.cs" />
+    <Compile Include="KMI\Sim\Queues\ProcessingSimQueueSegment.cs" />
+    <Compile Include="KMI\Sim\Queues\SimQueue.cs" />
+    <Compile Include="KMI\Sim\Queues\ISimQueueObject.cs" />
+    <Compile Include="KMI\Sim\Queues\SimQueueObject.cs" />
+    <Compile Include="KMI\Sim\Queues\ISimQueueCollection.cs" />
+    <Compile Include="KMI\Sim\Surveys\frmSurveyResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Surveys\SurveyQuestion.cs" />
+    <Compile Include="KMI\Sim\Surveys\Survey.cs" />
+    <Compile Include="KMI\Sim\Surveys\SurveyResponse.cs" />
+    <Compile Include="KMI\Sim\Surveys\frmSurveySegment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Sim\Surveys\SurveySegmenter.cs" />
+    <Compile Include="KMI\Sim\Surveys\frmSurvey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="KMI.Sim.Academics.frmChooseMathPack.resources" />
+    <EmbeddedResource Include="KMI.Sim.Academics.frmPage.resources" />
+    <EmbeddedResource Include="KMI.Sim.Academics.frmQuestions.resources" />
+    <EmbeddedResource Include="KMI.Sim.Academics.frmTestResults.resources" />
+    <EmbeddedResource Include="KMI.Sim.Academics.QuestionControl.resources" />
+    <EmbeddedResource Include="KMI.Sim.Academics.TestResultControl.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmAbout.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmActionsJournal.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmCreateMessage.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmDrawnReport.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmEditSimSettings.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmExceptionHandler.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmJoinMultiplayerSession.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmLanguage.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmLessonsSimple.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmMainBase.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmMessageBoxWithOptOut.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmMessages.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmMultiplayerRole.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmPlayMacro.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmProvideCash.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmRunTo.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmScoreboard.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmSetupWizard.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmStartChoices.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmStartMultiplayerSession.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmUpload.resources" />
+    <EmbeddedResource Include="KMI.Sim.frmUploadAlternative.resources" />
+    <EmbeddedResource Include="KMI.Sim.MessageControl.resources" />
+    <EmbeddedResource Include="KMI.Sim.Sim.resources" />
+    <EmbeddedResource Include="KMI.Sim.Surveys.frmSurvey.resources" />
+    <EmbeddedResource Include="KMI.Sim.Surveys.frmSurveyResults.resources" />
+    <EmbeddedResource Include="KMI.Sim.Surveys.frmSurveySegment.resources" />
+    <EmbeddedResource Include="KMI.Sim.ToolbarSponsored.resources" />
+    <EmbeddedResource Include="KMI.Sim.Images.WarningBlue.gif" />
+    <EmbeddedResource Include="KMI.Sim.Images.WarningGreen.gif" />
+    <EmbeddedResource Include="KMI.Sim.Images.WarningRed.gif" />
+    <EmbeddedResource Include="KMI.Sim.Images.WarningYellow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KMI.Utility.csproj">
+      <Project>{098e30a2-f80a-4552-b18c-e15550e6e09e}</Project>
+      <Name>KMI.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

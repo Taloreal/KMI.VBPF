@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{098E30A2-F80A-4552-B18C-E15550E6E09E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>KMI.Utility</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="KMI\Biz\frmInputAmount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Utility\ExtensionMethods.cs" />
+    <Compile Include="KMI\Utility\OS_Identifier.cs" />
+    <Compile Include="KMI\Utility\Utilities.cs" />
+    <Compile Include="KMI\Utility\ControlArray.cs" />
+    <Compile Include="KMI\Utility\TableReader.cs" />
+    <Compile Include="KMI\Utility\ResponseCurve.cs" />
+    <Compile Include="KMI\Utility\Constants.cs" />
+    <Compile Include="KMI\Utility\frmDualChoiceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Utility\ScoreAdapter.cs" />
+    <Compile Include="KMI\Utility\frmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Utility\Sound.cs" />
+    <Compile Include="KMI\Utility\KMIHelp.cs" />
+    <Compile Include="KMI\Utility\Phraser.cs" />
+    <Compile Include="KMI\Utility\frmInputString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KMI\Utility\PerformanceLog.cs" />
+    <Compile Include="KMI\Utility\KMIGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="KMI.Utility.Utility.resources" />
+    <EmbeddedResource Include="KMI.Utility.KMIGraph.resources" />
+    <EmbeddedResource Include="KMI.Utility.frmPassword.resources" />
+    <EmbeddedResource Include="KMI.Utility.frmDualChoiceDialog.resources" />
+    <EmbeddedResource Include="KMI.Utility.Names.resources" />
+    <EmbeddedResource Include="KMI.Utility.frmInputString.resources" />
+    <EmbeddedResource Include="KMI.Biz.frmInputAmount.resources" />
+  </ItemGroup>
+</Project>

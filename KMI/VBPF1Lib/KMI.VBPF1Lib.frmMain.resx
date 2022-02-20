@@ -1,0 +1,1350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System" name="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuItem9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="DayOfWeekPanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuActionsCreditCreditCards.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem53.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mnuActionsInvestingResearchFunds.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="staMain.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="SpacerPanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptions.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="menuItem1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="EntityCriticalResourceNamePanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EntityCriticalResourceNamePanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SM/9atj98/z/v8TwIC/KABLCABLCABLCABLCABLCABLCABLCABLCABLCABLCIC/Kr7Xs////ouX8Rcn6
+        Rcr6SMb6Ssb7U8v8bMz7CIbuUNP/MJnvRb75UND+TtH+S9X+S9X+eOD+////ABPHABPHABPHABPHABPH
+        ABPHABPHABPHABPHABPHABPHgIni7/D70vX/Ydj9StT+StX+S9X+TtH+UND+XtT+acz7A4fvUdT/NaLx
+        R734V9b/Vtf/Udr/Udr/fOP/////ABTMABTMABTMABTMABTMYGzf3+L4////////////////////////
+        ////////0/b/Udr/Udr/Vtf/V9b/Zdn/VsD6AIjxfeD/PbD1PqnzYdj/Ydj/Wtz/Wdz/g+X/////ABXR
+        ABXRABXRABXRABXRgIrowfL/hOX/////cHvmQE/dQE/dQE/dQE/dn6fu1vb/Wdz/Wtz/Ydj/Ydj/ctz/
+        OrD4QKf1AAAASMX7MZPta9r/a9r/Zdz/Yt7/ieb/////ABbVABbVABbVABbVABbVgIrq6/v/1/f/////
+        QFDgABbVABbVABbVABbVgIrq2Pf/Yt7/Zdz/a9r/a9r/ed3/EJf2AAAAAAAAUtX/K5HsZcz7dd3/cd7/
+        auD/j+f/////ABfaABfaABfaABfaABfaIDTfQFHkQFHkQFHkECXdABfaABfaABfaABfagIvt2vf/auD/
+        cd7/dd3/dNz/Ys/9AI72AAAAAAAAc93/QLX2RaTxft//fd//c+H/len/////YG7rABjgABjgABjgABjg
+        ABjgABjgABjgABjgABjgABjgABjgABjgIDXjz9T53Pj/c+H/fd//ft//dNz/K6z7MKT5AAAAAAAAAAAA
+        UtX/KIvrbsn5iOH/geL/euT/tfD/9/3/v8b4IDfoABrlABrlABrlABrlABrlABrlABrlABrlECnmgIzx
+        ////1vf/i+f/geL/iOH/f9//XdH/AJH5AAAAAAAAAAAAAAAAfeD/RsD5MI7rit39kOT+g+X+gub+iuf+
+        2ff/////gI30QFTuIDjsABzqABzqECrrQFTuYHHx3+P88Pz/ouz+gub+g+X+kOT+jeP+Ztn/Gab8QK78
+        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
+        FoPrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIbf9ILX9
+        N7j6Rb35NqHwI4DmIX/mI43pI47pI47pI47pI47pyOP6yOP6yOP6yOP6yOP6yOP6yOP6yOP6drjxI47p
+        I47pI47pI43pIX/mKILmYLXzleT+bsf5HIrtGIPrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAJ7r9Jbj9O7b4QLX2LI/rIXzlIoPnI47pI47pI47pI47pI47pI47p////////
+        ////////////////////////kcf0I47pI47pI47pI47pI47pIoPnIXzlRJzsj938gtP7HontGoPqAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALL3+Krr9O7P3PrD1J4boIXzlIoLmI47p
+        I47pI47pI47pI47pI47pI47p////z9LrQEquQEquQEquQEqucHfC////kcf0I47pI47pI47pI47pI47p
+        I47pIoLmIXzlNo/pkd78hNP7IInsHILqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMD+
+        Lr39ObH2PKz0JoboIXzlIX/mI43pI47pI47pI47pI47pI47pI47pI47p////v8PlAA6WAA6WAA6WAA6W
+        QEqw////kcf0I47pI47pI47pI47pI47pI47pI43pIX/mIXzlN4/pk978hdP6IonsHoHpAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAQsb+MsH+N7H2OqnzJoXoIXzlIXzlI4voI47pI47pI47pI47pI47pP5zs
+        rdX3yOP6////v8PlAA6ZAA6ZAA6ZAA6ZQEqy////5PH8yOP6rdX3MZXqI47pI47pI47pI47pI4voIXzl
+        IXzlN4/pld/8dsf4G4LqLYnqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANsP+Nrb5OajzKYvpIn3lIn3l
+        I4XnJI7pJI7pJI7pJI7pJI7pkcf08fj+////////////v8PmAA6cAA6cAA6cAA6cQEq0////////////
+        ////8fj+g7/zJI7pJI7pJI7pJI7pI4XnIn3lIn3lR53tn+b+Va/zHYLqAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAOsX+N8L9N6byMpruJYLmJYLmJYTnJpHqJpPqJpPqJpPqarTx5PH8////7/D5cHfJAA6fAA6fAA6f
+        AA6fAA6fAA6fAA6fAA6fAA6fAA6fAA6fgIfP7/D5////yeT6TqfuJpPqJpPqJpHqJYTnJYLmJYLmd8X2
+        mOD9I4nrH4HpAAAAAAAAAAAAAAAAAAAAbtX/PMb+N672NaDwKIjoJ4foJ4foKJHqKJfrKJfrQ6PuyeT6
+        ////////n6XcEB2nAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iAA6iICytv8Po////
+        ////odH2Np3sKJfrKJHqJ4foJ4foLozpl+D8b8H3HILqWKHvAAAAAAAAAAAAAAAAP8j/PMH9NJ7wMJbs
+        K4zpK4zpK43pK5rrK5vsiMb0////////v8PpQEq7AA6kAA6kAA6kAA6kAA6kAA6kAA6kAA6kAA6kAA6k
+        AA6kAA6kAA6kAA6kAA6kAA6kAA6kUFnB3+H0////8vn+YLTwK5rrK43pK4zpK4zpY7jzoOb+K4/tHoHp
+        AAAAAAAAAAAAAAAAQcn/N6/2MpzvLpLqLZLqLZLqLZfrLaDtLaDty+f6////YGjJAA6nAA6nAA6nAA6n
+        AA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nAA6nEB2tj5XZ////ltD2
+        LaDtLZfrLZLqLZLqNJfrl+D9Zbv2HILqAAAAAAAAAAAAUM7/Qsr/Mp/wMZntMJbrMJbrMJbrMKHtMKTu
+        MKTuy+j7////AA6qAA6qAA6qAA6qAA6qAA6qAA6qAA6qICy1QEq/QEq/QEq/QEq/QEq/ICy1AA6qAA6q
+        AA6qAA6qAA6qAA6qAA6qQEq/////mNL3MKTuMKHtMJbrMJbrMJbrc8f2jtr8GYPrK4rqAAAAAAAARcz/
+        Pr77MJfuM5vtNJvtNJvtNJztM6jwM6jwM6jwzOn7////AA6tAA6tAA6tAA6tAA6tAA6tAA6tAA6tgIbW
+        ////////////////////gIbWAA6tAA6tAA6tAA6tAA6tAA6tAA6tQErB////mdT4M6jwM6jwNJztNJvt
+        NJvtR6nwneb+MJbvG4LqAAAAAAAAR83/ObD2L5btN6HuN6HuN6HuNqTvNq3xNq3xNq3xzev8////AA6v
+        AA6vAA6vAA6vAA6vAA6vAA6vAA6vgIbX////2vD8zev82vD8////gIbXAA6vAA6vAA6vAA6vAA6vAA6v
+        AA6vQErD////mtb4Nq3xNq3xNqTvN6HuN6HuN6HulOH9WbX1GIPrAAAAd9v/SM7/M6DxMZnuOabwOabw
+        OabwOazxOLLyOLLyOLLyzez8////AA6yAA6yAA6yAA6yAA6yAA6yAA6yAA6ygIfZ////asX1OLLyasX1
+        ////gIfZAA6yAA6yAA6yAA6yAA6yAA6yAA6yQErF////m9j4OLLyOLLyOazxOabwOabwOabwe9L6ec36
+        FoPsU6LvYdb/Sc//LZPtNZ7vPavyPavyPavyPLLzO7b0O7b0O7b0zu38////////////////////////
+        ////////////////////2vH95vb+////////gIfaAA+1AA+1AA+1AA+1AA+1AA+1AA+1QEvI////ndr5
+        O7b0O7b0PLLzPavyPavyPavyasj4kd/9EoTsNJPuS9H/Ss//K47rOKTwP7DzP7DzP7DzPbj0Pbv1Prz2
+        Pr72q+P8z/D9z/D9z/D9z/D98/v/////////////////////////////////7/D7v8PuYGnTAA+4AA+4
+        AA+4AA+4AA+4AA+4AA+4QEvK////nt36Pbr1Pbr1Pbj0P7DzP7DzP7DzX8P3l+X+D4TtFYPsTNH/Rsf8
+        KozrPKvyQbX1Qbb1Q7j3QcH5QcT6QcT6QcT6QcT6QcT6QcT6Tcj6w+z9////////n6XmMD3IABC7ABC7
+        ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7ABC7QEzM////n9/7Pr72Pr72P7z2QbX1
+        QbX1QbX1VsH3leT+HpHwEoTsTdL/Q7/6KYvqPrD0Rr/4R8H6R8H6RMf7Q8n7Q8n7Q8n7Q8n7Q8n7leD9
+        8/z/////z9LzQEzPABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/ABC/
+        IC7Gr7Tr////oOH7QcP3QcP3QsD3RLr2RLr2RLr2V8T4k+T+LJ3yDoXtTtL/Q7/6KInqQrj3S8f8S8f8
+        S8f8SMz8R878R878R878adf93Pb+////7/D7gIjgABHBABHBABHBABHBABHBABHBABHBABHBABHBABHB
+        ABHBABHBABHBABHBABHBABHBABHBgIjg7/D7////3PX+Z9L6RMj5RMj5Rcb5SMH4ScP6SsX7XM79kOP+
+        KJ7zC4XuT9P/Scn8J4jqRLv4Tsz9Tsz9Tsz9StH9SdL9SdL9SdL9pOn+////v8TwIDDMABLEABLEABLE
+        ABLEABLEABLEABLEABLEABLEABLEABLEABLEABLEABLEABLEABLEQE3T3+H4////9Pz/mOP8R8z6R877
+        SM/8SND8StD9Tsz9Tsz9Tsz9XdL+juP/E5PxB4bvUNT/T9P/JofpQbb3UNH/UNH/UNH/TdX/S9b/S9b/
+        S9b/pev/////gInjABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIABPIIDDO
+        n6bq////////vPD/V9n/S9b/S9b/S9b/S9b/S9b/TdX/UNH/UNH/UNH/Zdf/jOL/AIjwA4fvZ9n/UNP/
+        KIrqPa70VNb/VNb/VNb/Udj/T9r/T9r/T9r/p+z/////gInlABPLABPLABPLABPLABPLABPLABPLYGze
+        v8Ty7/D8////////////////////////////////////////////////////T9r/T9r/T9r/Udj/VNb/
+        VNb/VNb/bdv/gdv+AInxIZfyfd//UNT/L5juNp/wW9f/W9f/W9f/WNn/Vdv/Vdv/Vdv/qu3/////gIrn
+        ABTOABTOABTOABTOABTOABTOABTOgIrn////////9P3/3/j/////3+L5v8Tzv8Tzv8Tzv8Tzv8Tzv8Tz
+        v8Tz7/D8////Vdv/Vdv/Vdv/WNn/W9f/W9f/W9f/d93/Zcv8AIryQKf1AAAAUdT/Oqv0KIrqYtj/Ytj/
+        Ytj/YNn/W9z/W9z/W9z/re7/////gIroABXSABXSABXSABXSABXSABXSABXSgIro////hOX/W9z/hOX/
+        ////gIroABXSABXSABXSABXSABXSABXSABXSv8T0////W9z/W9z/W9z/YNn/Ytj/Ytj/Ytj/ft//Qrb5
+        AIvzAAAAAAAAUdX/Rb/5I4PpXMn7adn/adn/aNr/YN3/YN3/YN3/sO7/////gIrqABbUABbUABbUABbU
+        ABbUABbUABbUgIrq////4fn/1/f/4fn/////gIrqABbUABbUABbUABbUABbUABbUABbUv8X0////YN3/
+        YN3/YN3/aNr/adn/adn/bNr/ft//GJz2AIvzAAAAAAAAXdj/UdT/KIzrQKTxb9v/b9v/b9v/aN7/Zt//
+        Zt//su//////gIvrABbYABbYABbYABbYABbYABbYABbYgIvr////////////////////gIvrABbYABbY
+        ABbYABbYABbYABbYABbYv8X1////Zt//Zt//aN7/b9v/b9v/b9v/ddz/bNT+AI71EJP1AAAAAAAAAAAA
+        UtX/N6XyKIjqcNf+dt3/dt3/ct7/a+D/a+D/te//////gIvtABfbABfbABfbABfbABfbABfbABfbABfb
+        ABfbABfbABfbABfbABfbABfbABfbABfbABfbABfbABfbABfbABfbv8X2////a+D/a+D/ct7/dt3/dt3/
+        dd3/dd3/RLv7AI72AAAAAAAAAAAAAAAAUtX/S8r8I4HoULH0fN7/fN7/e97/ceH/ceH/uPD/////v8X3
+        ECbgABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjfABjf
+        QFLm3+L7////ceH/ceH/e97/fN7/fN7/dd3/ctz/D5n5AI/3AAAAAAAAAAAAAAAAfeD/UtX/NKDxKYjq
+        fNr+guD/guD/e+H/duP/kOj/5vr/////7/H9YG/tABnjABnjABnjABnjABnjABnjABnjABnjABnjABnj
+        ABnjABnjABnjABnjABnjABnjECjkn6n0////////1fb/duP/e+H/guD/guD/gd//bdr/RsD9AJD5QKv5
+        AAAAAAAAAAAAAAAAAAAAUtX/Ts/+JYbpQ6DwieH/ieH/h+H/fOT/fOT/fOT/vvL/////////v8b4IDfo
+        ABvlABvlABvlABvlABvlABvlABvlABvlABvlABvlABvlABvlABvlcH7w7/H9////7/z/nev/fOT/fOT/
+        h+H/ieH/ieH/cNv/Y9X/B5f7AJH5AAAAAAAAAAAAAAAAAAAAAAAAAAAAUtX/PK/1I4LobcX4j+P/j+P/
+        iOT/geX/geX/geX/kej/4Pn/////////gI3zABvpABvpABvpABvpABvpABvpABvpABvpABvpABvpQFTu
+        z9T7////9/3/wPL/geX/geX/geX/iOT/j+P/j+P/gN//Y9j/LbP9AJP7AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAXdj/UdX/MZvvKonqgNL6leT+leT+ieb+hub+hub+hub+hub+tPD++P7/////////////v8f6
+        AB3sAB3sAB3sAB3sQFbx////////////////2vf/len+hub+hub+hub+ieb+leT+leT+ieL+X9j/QsT+
+        AJf7EJz7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUtX/Ts/+K5HsK4rqhdP6nOb+meb+jOf+i+j+
+        i+j+i+j+i+j+k+n+1Pb/4/n/////v8f7AB7wAB7wAB7wAB7wQFbz////8fz/4/n/qe7+i+j+i+j+i+j+
+        i+j+jOf+meb+nOb+jeL+Wdf/SMv+Bp77AJj7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        UtX/Ts/+LJLtLYvqi9X6o+j+nuj+kun+kun+kun+kun+kun+kun+kun+////v8f8AB/zAB/zAB/zAB/z
+        QFf2////yPT/kun+kun+kun+kun+kun+kun+nuj+o+j+k+P+VtT/Q8v+BaL8AJz7AAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUdT/Tc/+LJPtLo3qic34ue3/se3/pO7/pO7/pO7/pO7/
+        pO7/pO7/////3+P+gJD6gJD6gJD6gJD6n6v7////0vb/pO7/pO7/pO7/pO7/pO7/se3/ue3/leL+VdD+
+        Qcj+BaT8AJ/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUdT/Tc7+
+        Mp3wJ4fqcLfzyO39z/P/vPP/u/P/u/P/u/P/u/P/////////////////////////////////3fn/u/P/
+        u/P/u/P/vPP/z/P/yvD/hNr9Tcr9NsD9Baf8AKL8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAUNT/T9P/PLH1Ko3rNJHsicP13/P+3Pr/0fn/0fn/0fn/3vv/3vv/
+        3vv/3vv/3vv/3vv/3vv/3vv/1/r/0fn/0fn/3Pr/4Pb/l9z8Usb6RsT8Ibf9AKf8AKX8AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAW9b/TtL/SMj8NaTy
+        KYzrOJbtiMH10Or86/7/4P3/4P3/4P3/4P3/4P3/4P3/4P3/4P3/4P3/4P3/6/7/1PH9ldj7UMH5Rr/5
+        Mrv7ELD9Aqv9EK79AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAATdL/TNH/Rsf8OKr0LZTtLZPtSaPwb7jzjsz3veX7teb7tub8tuf8tuj8
+        vun8lNb6eMj4WLz3QbX2QLj3NLj6G7P9ELD9C679AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAed3/S9D/Ss//SM7/Prr5
+        OKz1NKTyMZnuMpzvNJ7wNqHxN6TyOKfyOqnzO6z0ObL3NLX5LLf7ILb9HLT9GLL9TsX+AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAVNL/R83/RMz/Q8v/Qcn/PcX+Orz6OLz7N7z7Nbv7Mr/9Lr/+LL3+KLv9
+        Jbn9MLz9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc9j/WtH/QMj/
+        Pcf/O8X+OMX+NsP+M8H+Ssj+Ys7+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA///gB///AAD//wAA//8AAP/4AAAf/wAA//AAAA//AAD/wAAAA/8AAP+A
+        AAAB/wAA/wAAAAD/AAD+AAAAAH8AAPwAAAAAPwAA+AAAAAAfAADwAAAAAA8AAPAAAAAADwAA4AAAAAAH
+        AADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAOAA
+        AAAABwAA8AAAAAAPAADwAAAAAA8AAPgAAAAAHwAA/AAAAAA/AAD+AAAAAH8AAP8AAAAA/wAA/4AAAAH/
+        AAD/wAAAA/8AAP/wAAAP/wAA//gAAB//AAD//wAA//8AAP//4Af//wAA
+</value>
+  </data>
+  <data name="$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="mnuActionsIncomeWork.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActions.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvestingMyPortfolio.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsCheckbook.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReports.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsActionsJournal.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceRenters.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem51.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeEducation.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsPayAndTaxRecords.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsInvestmentStatements.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsResume.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLiving.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceAuto.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsCreditShopForCar.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsHealth.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton14.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileOpenLesson.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsProvideFood.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeTaxes.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsCreditReport.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="toolBarButton11.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem54.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingCondo.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceHealth.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileExit.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsCreditShopForGas.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuActionsCreditInternet.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mnuFileMultiplayerJoin.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsMMBills.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsCreditScore.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem56.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditSellCar.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLiving.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditShopForFood.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="picMain.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="staMain.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="DayOfWeekPanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileMultiplayer.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="menuItem2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncome.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton12.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditSellCar.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuReportsPayAndTaxRecords.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsActionsJournal.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileNew.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="menuItem8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsSnapshot.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsPersonalBalanceSheet.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingCondo.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCredit.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="NewMessagesPanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvestingRetirement.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="toolBarButton9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsRetirementStatements.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuView.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="scoreboardButton.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingHousing.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuHelpTutorial.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="DatePanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="ilsMainToolBar.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mainMenu1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="menuItem6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton14.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton17.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditShopForGas.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="menuItem7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsMMOnlineBanking.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditShopForFood.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingTransportation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsIncome401K.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem51.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton16.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="picMain.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuFileExit.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="picMain.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvestingResearchFunds.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncome.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsShowMessages.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="toolBarButton17.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeWitholding.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem52.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsLegend.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="CurrentEntityNamePanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsCreditScore.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsShopBusTokens.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsShopBusTokens.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActions.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuReportsCreditReport.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem54.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncome401K.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mainMenu1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ilsMainToolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="menuMessagesSep.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="scoreboardButton.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton15.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsHealth.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileOpenLesson.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsInsuranceHomeowners.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuOptionsGoStop.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileMultiplayerScoreboard.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditShopForCar.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value />
+  </data>
+  <data name="mnuFileMultiplayerJoin.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuOptionsIA.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvestingRetirement.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="CurrentEntityPanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuFileMultiplayerStart.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomePayment.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsMMBills.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="CurrentEntityNamePanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="TimePanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileSaveAs.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuOptions.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileOpenSavedSim.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mainMenu1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="mnuActionsInvesting.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditForGoods.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingTimeMgt.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuOptionsShowMessages.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceAuto.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsurance.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuReportsResume.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsIncomeWork.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsMM.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem52.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReports.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuActionsLivingHousing.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="staMain.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBarButton16.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuView.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="mnuActionsMMBanking.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="toolBarButton2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton10.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsGoStop.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsIA.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuOptionsLegend.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditInternet.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="menuItem2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton10.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceHealth.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuReportsPersonalBalanceSheet.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileMultiplayer.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="DatePanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="ilsMainToolBar.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD2
+        SwAAAk1TRnQBSQFMAgEBCwEAAQ4BAAEEAQABGAEAARgBAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABSAMAAQEBAAEYBgABURgAAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJv
+        AXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXDkAAJvAXAD7wHrAuoB6wLqAesC6gHr
+        AuoB6wLqAesC6gHrAuoB6wLqAesC6gHrAuoB6wLqAesC6gHrAuoB6wLqAesC6gHrAuoB6wLqAm8BcGYA
+        A9YCkwGUA08GFgNPApMBlAPWZgACbwFwA/8r+AF9AfcB+AF9AfcB+AF9AfcCbwFwJAABlwKYAZ8BdQF2
+        AZ0CnwGXApgBlwKYGwAD8A8AA5kDgwNKA40DxwbwA8cDjQNKA4MDmQ8AA/BOAAJvAXAt7wH4AX0B9wH4
+        AX0B9wH4AX0B9wJvAXAeAAGXApgBpgGnAaYBYgFlAWkBkAGTAZQBdgJ6AYgBjgGPAXECcwGXApgBlwKY
+        GAABzgHMAcgBzgHMAcgB2gHZAdcC6QHnAuYB5QN6A4wB0QHQAdEBgwFvAXQBpwFrAWQB2QGLAWEB6QGg
+        AWIB6AGdAWIByQGMAWsBugGjAaABigKJA3oC5gHlAekB6AHnAdoB2QHXAc4BzAHIAc4BzAHIUQACbwFw
+        A/8q/AH4AX0B9wH4AX0B9wH4AX0B9wJvAXAYAAGXApgBogJ+AZIClAGKAo0BpgGqAasBOwI+AWgCawE4
+        ATYBNQFzAnYBbAJvAZkBmwGcAZcCmAGXApgSAAxhA4MDjAHOAc0BzgFWAUgBTwGVAVgBYAHCAWkBVQHk
+        AYYBSwHvAZkBUwH0AZcBTwHlAYUBTAHBAXYBVAGcAn4BiQGIAYkCgwGEDGFRAAJvAXAt7wH4AX0B9wH4
+        AX0B9wH4AX0B9wJvAXASAAGXApgBlwKYAY4BjwGQAXYBeAF5ASoCLgGmAbABsQFdAV8BXgE2ATkBOAF+
+        AYABgQE+AkABpgKtAVoBXgFbAT4BQAFBAYkCiwF3AnkBlwKYAZcCmAwACWEDnwNKAeUB5AHlAVMBTAFS
+        AVoBRwFSAY8BVAFfAawBWwFWAdABdAFKAecBhgFLAeABgwFIAdIBcgFGAcEBZgFQAaYBZwFkAaUBmQGf
+        A0oDngMAA2FUAAJvAXABAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIA
+        AYACAAGAAgABgAIAAYABAAn/Am8BcAwAAZcCmAGXApgBbQFvAXABjAKQAXECdwETARIBFQFKAU0BSgF+
+        AYkBiwEeASABGwFJAUwBSwGDAYUBhgEvAjABjgGTAZQBQgFGAUQBNgE3ATkCaQFuAW8BcgFzAV4BYwFi
+        AYcCiQGXApgBlwKYBgACOQE6AjkBOgNhAoEBggONAaUBowGkAToBMAE5ATwBMQE5AWQBQwFOAYsBUQFd
+        AbEBYAFWAcsBbAFNAcgBbQFMAbMBYQFSAZ8BVgFgAYQBVAFbAXYCaQONAoEBgloAAm8BcAEAAYACAAGE
+        AgABgwIAAYMCAAGDAgABgwIAAYMCAAGDAgABgwIAAYMCAAGDAgABgwIAAYMCAAGEAgABgAEACe8CbwFw
+        CQABlwKYAYcBigGMAaQBpwGoAV0CZQFCAUUBRAFHAVEBUwMAAU8CUwGVAZ0BnwGIAZUBlwFFAUcBSAF5
+        AnsBOwE8AT0BkQGUAZUBWAFdAVwBIQEgAiUBKwEsAZQCmQEjASUBJAFnAmoBdgF7AXoBgQGDAYQBlwKY
+        AwACOQE6AjkBOgI5AToDTAPHAVUCUQEoASIBKAEsASIBKQE2ASwBMwFZAUEBUAGDAVEBZAGVAVcBXgGV
+        AVcBWwGKAVUBXwFyAUoBWwFQAToBSAFOAUYBTQPHA0wDYQMAA2FRAAJvAXABAAGAAgABgQIAAYACAAGA
+        AgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgQIAAYABAAn/Am8BcAYAAZcCmAGO
+        ApABTQFQAVIBmwGfAZ4BXQFhAV8BOwE/AT4BVwFgAWIBMQE3ATgBRAFGAUMBlgGgAaEBaQFwAXIBQQJC
+        AXoCeAE1ATYBNwG9AcQBxQGTAZYBlwEUARoBGwEkASgBKQGnAqwBMAIvAZQBkwGYAUcCSwGhAaYBpQYA
+        AjkBOgI5AToCOQE6AxYD8AE5ATIBMwEoASEBJAEqASABJwE1ASsBNgFRAUABUQFyAVEBZAF/AVEBYwFr
+        AUsBVwFbAUUBVAFFATcBPwEzASoBNAE3ATIBOAPwAxYDlwNhA5dRAAJvAXABAAGAAgABgQIAAYACAAGA
+        AgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgQIAAYABAAnvAm8BcAkAAZcCmAFG
+        AUcBSQE2ATUBMwEgASMBHgFcAmEBsAG/AcABjAGUAZgDLQGYAacBqAJKAUkBPQE8AT4BeQGNAZABPgJC
+        AawBtQG2AV4BYQFeAUIBQwFEAbUBvAG5AYcBjAGNASYBKQEqAcICxgN0AaEBpgGlBgAJYQMWA/ABQQE8
+        AT0BMAEoASkBMwEpATABPQEwAUEBaQFLAV8BjAFaAWIBlgFdAWEBfAFUAWYBUAFAAVMBOwExATsBLQEj
+        AScBNgEvATAD8AMWBpcDqlEAAm8BcAEAAYACAAGBAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIA
+        AYACAAGAAgABgAIAAYACAAGBAgABgAEACf8CbwFwDAABWQJaAXMCdwFrAXEBcwFMAU4BTwFqAXQBcwFS
+        AVYBUgNHAYgBlwGYAV4BZwFoAV0BYgFjAW8BfgGCAVYBWwFaAX0BhQGLASQBKAEnAU8BUAFRAasBsAGu
+        AYYCiwEpAiwBvwLCAoIBgwGhAaYBpQYAA7gGqgNNA8cBcQJvAS4BJwEoATMBKQEwAUYBNwFJAYYBWwFl
+        AbIBdQFmAbsBegFlAZYBYwFvAVYBQwFVATMBKwE3AS4BJwErAS8CKwPHA00JqlEAAm8BcAEAAYACAAGD
+        AgABggIAAYICAAGCAgABggIAAYICAAGCAgABggIAAYICAAGCAgABggIAAYICAAGDAgABgAEACe8CbwFw
+        DAABXwJdAXsChgFmAW0BbwE0ATIBLgF2AYMBhAFqAXIBcwJaAVsBTQFPAVEBYAJjAWwCdgGbAaMBoAGZ
+        ApgBTAJRAVUBWgFbAVYCXQFTAVwBWgGRAZMBmAEsAi0DwQJzAXQBoQGmAaUGAAPDA6oDlwKBAYIDjQHP
+        As4BKgEjASQBMAEoAS8BUgFAAVMBlgFnAWsByQGLAXYB0wGaAYABowJzAV0BSgFcATUBKwE8ASgBIgEm
+        AVACTQONAoYBhwOqBpdRAAJvAXABAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGAAgABgAIAAYACAAGA
+        AgABgAIAAYACAAGAAgABgAIAAYABAAn/Am8BcAwAAWYCZQFjAmsCTQFLAU4CUwGAAY4BkQFUAVMBVAFa
+        AlgBhwGMAYgBnQGyAbUBeAGGAYQBzQHSAc4B3gHiAeMBsQK0AY4CkgFkAmcBQAJFAX0BiwGMATEBNQE0
+        AcUBxgHHA4cBoQGmAaUGAAaXA2EDnwNKA/MBiAKEATABKQEtAVYBQgFaAZYBYQFyAcIBjwGIAcgBpQGa
+        AaABewF8AWMBTgFiATwBMAE/ASkBIwEnA74DSgOkA5cGYVEAAm8BcC3vAfgBfQH3AfgBfQH3AfgBfQH3
+        Am8BcAwAAXEBcAFtAVwBZwFoAXEBdQF3AVkCWgE9AToBNwFuAXMBcgG+AdQB0wGdAb0BwQFMAVUBUgHf
+        AdsB2AHxAfQB8wG/AcgBxQHQAdUB1AHAAcMBxAG+AcEBwgF2AnkBTAJRAVUBWgFbAZYBmwGcAXECdAGh
+        AaYBpQYADGEDgwOMA/wBkgGOAZABSgE6AVABhQFcAXcBuQGQAZsBxAGrAagBnAKGAWYBVQFlAUsBQgFP
+        AbgBtgG3A4wDgwxhUQACbwFwA/8q+gH4AX0B9wH4AX0B9wH4AX0B9wJvAXAMAAFbAl4BRwFGAUgDYwF0
+        AXsBeAGhAbsBtwHHAeUB7gFZAXIBgQE5AT0BOQHuAewB6gHxAfYB9AG7AckBxwHmAe8B7gHPAdcB1AHc
+        AeIB4QGxArkB1gLaArcBuAGEAYgBiQFcAWABYQFAAUUBRgGhAaYBpQYADGEDnQNxA4wD8wHOAcsBzgGi
+        AZsBoAGVAYUBhwGaAY4BiQGRAooBngGbAZ4B2AHXAdkDjANyA50MYVEAAm8BcC3vAfgBfQH3AfgBfQH3
+        AfgBfQH3Am8BcAkAAaEBpgGlA2QBewGFAYYBsQHGAccBuwHaAd8BkgGwAcABPwFRAV4BUwFRAUwD/wHc
+        AeIB5QG2AcMBvgHbAekB6AHBAccBxQHgAewB6wHBAcoByQH4Af0B/wHZAeMB4gG+AcUBxAHOAtIBrAKv
+        AYUBiAGKAVEBVgFbAZcCmAMAAc4BzAHIAdkB2AHVAeYB5QHkAvIB8QL7AfoB8ALvA5QDSwONA8cG8APH
+        A40DSwKTAZQD7wP6AvIB8QHmAeUB5AHZAdcB1QHOAcwByFEAAm8BcAH1Av8B/QL/Af0C/wH9Av8B/QL/
+        Af0C/wH9Av8B/QL/Af0C/wH9Av8B/QL/Af0C/wH9Av8B/QL/Af4C/wH4AX0B9wH4AX0B9wH4AX0B9wJv
+        AXAJAAGhAaYBpQGaAaoBqwGVAaMBpgFMAVABUQEsATABMgEwATUBNgF8AYABegP/Ac8B1wHWAboBxAHC
+        AdMB3QHeAb0BxgHFAdoB5gHqAbUBvgG7AeYB9QH2AdMB3QHcAc4B1wHUAe4B+AH3AckB0gHRAc0B1AHY
+        Ab4BwQHCAcECxQGXApgDAAHOAcwByAHZAdgB1QLmAeQC8gHxAvsB+gP/A/0CzQHMAowBjQNOBhYDTgKM
+        AY0CzQHMA/wD/gP6AvIB8QHmAeUB5AHZAdgB1QHOAcwByFEAAm8BcAH+AgAB/gIAAf4CAAH+AgAB/gIA
+        Af4CAAH+AgAB/gIAAf4CAAH+AgAB/gIAAf4CAAH+AgAB/gIAAf4CAAnvAm8BcAwAAaEBpgGlAaEBpgGl
+        AbEBuQG3Ab0BxgHDAc0B1QLUAdsB3QGwArsBuQHBAcIBywHVAdQBuQHDAcEB0gHcAd0BsAG5AbcB5wHx
+        AfQBwwLMAcIBzwHKAdcC5AHGAdABzgHjAe4B8AHaAeQB3wHpAfMB8gGXApgGAAHOAcwByAHZAdgB1QHm
+        AeUB5ALyAfEC+wH6A/8D/QP0AegB5wHmAdgB1wHUAcsByQHGAcsBygHGAdgB1wHUAucB5gP0Af0C/AP+
+        A/oC8gHxAeYB5QHkAdkB2AHVAc4BzAHIUQACbwFwAfYCAAH+AgAB/gIAAf4CAAH+AgAB/gIAAf4CAAH+
+        AgAB/gIAAf4CAAH+AgAB/gIAAf4CAAH+AgAB/gIACf8CbwFwEgABoQGmAaUBoQGmAqUBrQGsAaUBrQGs
+        AZICmQGhAqkBtQG9AbwByALSAbwBxQHDAeQB8AH0AbsBwwHCAccC0AHMAd0B1QHFAc4ByQHUAuMBvQHF
+        AcMB9QL2AZcCmAYAA/BCAAPwTgACbwFwAfcCAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIA
+        Af8CAAH/AgAB/wIAAf8CAAH/AgAB/gIACe8CbwFwGAABoQGmAaUBoQGmAaUBtgG+Ab0BrQG2AbQBqwG0
+        AbMBqgGzAbIBugHDAccBsAG6AbkBzgLXAcQCzgHEAckBzQHJAtcBwAHIAcAB8gH5AfgBlwKYEgAD8APi
+        BgADuAYADLgGAAO4CQADuFcAAm8BcAH3AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/
+        AgAB/wIAAf8CAAH/AgAB/wIAAf4CAAn/Am8BcB4AAaEBpgGlAaEBpgGlAawBtQG0Aa8CuQGMAZQBkgGm
+        Aa8BrgGxAbgBuQG8AcYBxQHJAdMB2AHAAc0BxwHmAfMB8gGXApghAAO4BgAMuAYAA7hjAAJvAXAB9wIA
+        Af8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH+AgAJ7wJv
+        AXAkAAGhAaYBpQGhAaYBpQGpAbABswGsAbQBswGrAbcBtgGmAa8BsgG1Ab0BuAHZAeMB4gGXApgnAAO4
+        AwAMuAMAA7hmAAJvAXAB9wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/
+        AgAB/wIAAf8CAAH+AgAJ/wJvAXAqAAGhAaYBpQGhAaYBpQGhAaYBpQGhAaYBpQGhAaYBpQGXApioAAJv
+        AXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJv
+        AXACbwFwAm8BcAJvAXACbwFw8AADzwPMDMtyAAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFw
+        Am8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwYAADjQKUAZMSkQOG
+        A6UDx2MAAm8BcAPvAesC6gHrAuoB6wLqAesC6gHrAuoB6wLqAesC6gHrAuoB6wLqAesC6gHrAuoB6wLq
+        AesC6gHrAuoB6wLqAesC6gHrAuoCbwFwXQADyQOdFf8D3wNlA65jAAJvAXAD/zP4Am8BcAkAAZoBFAEQ
+        AZcBKgEiAZkBLAElAZsBLwEoAZ0BMQEsAaABNAEwAaIBNwE1AaUBOwE5AagCPgGoAj4BpwE9ATwBpwI8
+        AaYBPAE7AaYBPAE7AaYBPAE7AaUBOwE6AaQCOgGjAjkBogE4ATcBoAI2AZ4CNAG5FwADnQn/AeAB+AH8
+        AfEB+wH9Bv8D3wOfA2ADxmAAAm8BcDbvAm8BcAkAAY0BUgFAAbQBqQGJAbwBsgGVAcQBvAGjAc4BxwGz
+        AdgB0wHDAeMB3wHUAe8B7AHmAvoB+AH7AfoB+QH1AfQB8QH0AfMB8AHzAfIB7wHyAfEB7gHxAfAB7QHv
+        Ae4C6wHqAegB5wHmAeQB4gHhAd8C2wHZAtMB0gGfFwADnQb/AZIB5gH1AfEB+wH9AcMB8AH5Ab8B8QH5
+        A/8D3wOfA48CugG7YAACbwFwA/8V+gGFAaoBgwFKAYIBRwG0AcoBshX6Am8BcAkAAY0BUgFAAYYBfgFm
+        G78DuBW/A5UC0wHSAZ8XAAOdBv8B/QL+Bv8B/QL+A/8D3wOfA48BLwFMAWwBuwG8Ab0VADz/DAACbwFw
+        GO8BdgGfAXQBSgGCAUcBogG8AaEV7wJvAXAJAAGNAVIBQAGGAX4BZhj/AbIBxAH2AbYBwAHfFf8DtQLT
+        AdIBnxcAA50J/wHRAbUBuwH0Ae4B7wb/A98DnwOPASQBRgFsATABWgGHAasBrgGyEgA8/wwAAm8BcAH1
+        Av8B/QL/Af0C/wH9Av8B/QL/AakBxQGpAXoBowF4AUoBggFHAUoBggFHAUoBggFHAUoBggFHAVYBigFT
+        AakBxQGpAf0C/wH9Av8B/QL/Af0C/wH+Av8CbwFwCQABjQFSAUABhgF+AWYC/wHYAv8BzAL/AcwC/wHM
+        Av8BzAL/AcwC/wHMAv8BzAF6AZoB3AFyAY8B4AL/AcwC/wHMAv8BzAL/AcwC+wHIAv8BzAL/AcwDtQLT
+        AdIBnxcAA58J/wHaAcMBxwHtAeQB5gb/A98DnwOPAZIBlwGbAUABYgGGASsBWAGKAZMBnAGmA8YMABP/
+        AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAEv8MAAJvAXAM7wGMAa4BigFKAYIBRwFKAYIBRwFK
+        AYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFgAZEBXQHZAeAB2QnvAm8BcAkAAY0BUgFA
+        AYYBfgFmD/8D6wb/AU4BeQHzAUEBbAHmA/UG/wGFAaIB8wHLAdIB5gb/A7UC0wHSAZ8UAAPMA54J/wHV
+        AbwBwAHtAeQB5gb/A98DnwOPAc0BywHIAfIB8AHuAWABcwGGASwBWgGPAW4BgQGUA8YJABP/AgAB/wIA
+        Af8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAEv8MAAJvAXAM/wFWAYoBUwFKAYIBRwGGAawBhAHnAe4B5gb/
+        AWIBkwFgAUoBggFHAUoBggFHAUoBggFHAXoBowF4Cf8CbwFwCQABjQFSAUABhgF+AWYC/wHrAv8B5QL/
+        AeUC/wHlAbUBxwHtAVgBfAHhAvgB5QL/AeUBPAFrAe4BKgFcAeoC6wHfAeAB4wHnAv8B5QE/AW4B8gGN
+        AaIB3wL/AeUC/wHlA7UC0wHSAZ8XAAOiA/8B9gH1AfsB3gHbAfUB0AG1AboB7QHkAeYB1QHRAfID/wPf
+        A58DjwHNAcsByAH9AfoB9gH9AfoB+AGFAZEBnAErAVgBiQFHAWEBfwHEAsUGADz/DAACbwFwCe8B5AHo
+        AeQBVQGJAVIBjAGuAYoG7wHkAegB5AGiAbwBoQFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwHk
+        AegB5AbvAm8BcAkAAY0BUgFAAYYBfgFmAv8B6wL/AeUBwAHPAd4BtgHAAdgBegGaAekBHgFUAewC6wHY
+        Av8B5QFBAWwB5gFrAY8B7gGQAaUB1QE1AWQB6ALyAd8BKgFcAeoBTAF0AeQC6wHSAvIB2AO1AtMB0gGf
+        FAADygOVA/8B5gHjAfgBuQGyAeoG/wGfAZUB4gP/A98DnwOPAc4BywHIAf0B+gH2Af0B+gH2Af0B+wH3
+        AYwBlwGkASoBVgGHAUYBZQGHBgAD/wETAU0B7wETAU0B7wETAU0B7wETAU0B7wETAU0B7yr/DAACbwFw
+        Ev8BwwHVAcIBegGjAXgBSgGCAUcBSgGCAUcBSgGCAUcBSgGCAUcBSgGCAUcBSgGCAUcBSgGCAUcB8wH3
+        AfMG/wJvAXAJAAGNAVIBQAGGAX4BZgGgAbUB8gFvAYwB3QEqAVwB6gFYAXwB4QEwAWMB8QFTAXsB6gG8
+        AccB5QHSAd0B/AFbAX8B5QGXAbEB+AEqAVwB6gETAU0B7wGeAbEB4wFtAY4B6QE/AW4B8gFBAWwB5gFB
+        AWwB5gGJAZQBsgLTAdIBnxEAA8gBeAGFAZIBVQFYAVsDnwPhD/8D3wOfA48BzgHLAckB/QH6AfYB/QH6
+        AfYB/QH6AfYB/QH6AfcBxwHKAc4BYQF6AZYGAAP/ARMBTQHvARMBTQHvARMBTQHvARMBTQHvARMBTQHv
+        Kv8MAAJvAXAP7wGMAa4BigFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFK
+        AYIBRwF2AZ8BdAnvAm8BcAkAAY0BUgFAAYYBfgFmAdIB3QHVAcQB0gHIAdIB3QHJATgBaAHrAVABdwHn
+        AZcBsQHeAYEBmgHbAcQB0gHUAXwBmQHdAdIB3QHVARMBTQHvAW0BjgHcAUEBbAHmAZkBrwHZAv8BzAL/
+        AcwC/wHMA7UC0wHSAZ8OAAPJAXABfAGGAZ0BpAGqAcgBxQHCA6MDrw//A98DnwOPAc4BygHGAf0B+gH1
+        Af0B+gH2Af0B+gH2Af0B+gH2AZEBpwG+AegB6QHrBgA8/wwAAm8BcAz/AbcBzQG1AUoBggFHAUoBggFH
+        AUoBggFHAUoBggFHAUoBggFHAUoBggFHAUoBggFHAUoBggFHAWIBkwFgAecB7gHmCf8CbwFwCQABjQFS
+        AUABhgF+AWYJ/wFrAY8B9QGRAaoB8QHSAd0B/AFMAXQB5AGCAZ8B8AGlAbcB6gP/AXoBmgH2AcQB0gH7
+        ARMBTQHvAcYB0AHvCf8DtQLTAdIBnwsAA84BdQF9AYYBnQGkAakB/QH6AfYB/QH6AfYDPQOkD+8D0QOf
+        A48BzgHLAcgB/QH6AfYB/QH6AfYB/QH6AfYBjgGkAb0C8AHxA8kGABP/AgAB/wIAAf8CAAH/AgAB/wIA
+        Af8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAAf8CAAb/DAACbwFwDO8BgQGmAX8BSgGCAUcBSgGCAUcBSgGC
+        AUcBSgGCAUcBSgGCAUcBSgGCAUcBgQGmAX8BrQHDAawP7wJvAXAJAAGNAVIBQAGGAX4BZgL/AesC/wHl
+        Av8B5QHwAfMB5AHwAfMB5AL/AeUBLQFgAecBagGKAeYBtwHFAeEC/wHlAv8B5QL/AeUBIQFYAekC+AHf
+        Av8B5QL/AeUC/wHlA7UC0wHSAZ8IAAPJAa4BtQG5AZ4BpQGrAf4B/QH7Af0B+gH2AfAB8gH1A58DqhKf
+        A8cDjwHOAcsBxwH9AfoB9QH5AfYB8wGJAaABugLtAe4DyAkAE/8CAAH/AgAB/wIAAf8CAAH/AgAB/wIA
+        Af8CAAH/AgAB/wIAAf8CAAH/AgAB/wIABv8MAAJvAXAD/wn6AXkBogF3AUoBggFHAUoBggFHAUoBggFH
+        AUoBggFHAagBwgGmBvoBywHaAcoBVgGKAVMBhQGqAYMJ+gJvAXAJAAGNAVIBQAGGAX4BZgL/AesC/wHl
+        Av8B5QL/AeUC/wHlAv8B5QFrAY8B7gEeAVQB7ALvAeIC/wHlAv8B5QL/AeUB4QHoAfAC/wHlAv8B5QL/
+        AeUC/wHlA7UC0wHSAZ8IAAGkAawBtQFXAXMBkAP/A/UB7AH0AvwC+wHBAb4BvANiGI8BzgHLAckB3QHg
+        AeIBjgGjAb0D3gPHDAA8/wwAAm8BcAzvAaIBvAGhAUoBggFHAUoBggFHAUoBggFHAUoBggFHAcMB0gHC
+        A+8BrQHDAawBSgGCAUcBSgGCAUcBawGYAWkJ7wJvAXAJAAGNAVIBQAGGAX4BZhL/AaYBvAH5AR4BVAHs
+        A/IY/wO1AtMB0gGfBQADxgGSAaoBwgEuAV4BkwFcAX8BowGbAZ0BngK3AbgD/AL7AfoBzgHLAckBzQHL
+        AcgBzQHLAcgBzgHLAcgBzgHLAcgBzgHLAcgBzQHLAccBzgHLAccBzgHLAccB0wHXAdgBkQGnAcED3BIA
+        E/8CAAH/AgAB/wIAAf8CAAH/AgAB/wIAGP8MAAJvAXAB9QL/Af0C/wH9Av8B/QL/Af0C/wFuAZsBbAFK
+        AYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwFKAYIBRwGpAcUBqQH9Av8B/QL/
+        Af4C/wJvAXAJAAGNAVIBQAGGAX4BZgL/AdgC/wHMAv8BzAL/AcwC/wHMAv8BzAHhAegB1gFEAW8B6QL/
+        AcwC/wHMAv8BzAL/AcwC/wHMAv8BzAL/AcwC/wHMAv8BzAO1AtMB0gGfCAADygHBAc4B3AE8AWgBmAF0
+        AX0BhwPNA7cD7gP/Af4B/AH6Af0B+gH2Af0B+gH1Af0B+gH2Af0B+gH1Af0B+gH1Af0B+gH1AYoBogG7
+        AY8BpgG/A84VABP/AgAB/wIAAf8CAAH/AgAB/wIAAf8CABj/DAACbwFwEu8BogG8AaEBSgGCAUcBSgGC
+        AUcBSgGCAUcBSgGCAUcBYAGRAV0BawGYAWkBgQGmAX8M7wJvAXAJAAGNAVIBQAGGAX4BZhW/AbABtAG+
+        G78DlQLTAdIBnwsAA8gB4gHlAegBsQG2AbsCcQFyA5QDuAPRA9gB/gH9AfwB/gH8AfkB/QH6AfYB/QH6
+        AfYB6wHqAegBhwGfAbkB3AHeAeADyBgAPP8MAAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAn/AXoBowF4
+        AUoBggFHAasBxQGpFf8CbwFwCQABjQFSAUABtAGpAYkBvAGyAZUBxAG8AaMBzgHHAbMB2AHTAcMB4wHf
+        AdQB7wHsAeYC+gH4AfsB+gH5AfUB9AHxAfQB8wHwAfMB8gHvAfIB8QHuAfEB8AHtAe8B7gLrAeoB6AHn
+        AeYB5AHiAeEB3wLbAdkC0wHSAZ8OAAPHA/IDxgPCAW0CbgOkA7oDmQP/Af4B/QH8Ae4B7QHsAYIBmwG3
+        A+seADz/DwACbwFwCe8CbwFwCe8BgQGmAX8BSgGCAUcBrQHDAawV7wJvAXAJAAFvAR8BGAGHAX4BZwGN
+        AYUBcAGTAY0BegGaAZUBhgGiAZ4BkgGqAacBnwGzAbEBrAK7AboBvAK7ArcBtQG3AbYBtAK2AbMBtgG1
+        AbMCtAGyAbMBsgOwAa4BrQGsAasCqQGnAqQBowORAawOAAbHA+kD4QPAAWQBaAFrAV8BcQGGAXUBigGj
+        AfAB8wH1Ad4B5AHqAX4BmAG1A+sDyGwAAm8BcAb/Am8BcCf/Am8BcAwAAZcBKgEiAbABpwGMAcQBvAGj
+        Ac4BxwGzAdgB0wHDAeMB3wHUAe4B7AHlAvoB+AH7AfoB+QH1AfQB8QH0AfMB8AHzAfIB7wHyAfEB7gHx
+        AfAB7QHvAe4C6wHqAegB5wHmAeQB4gHhAeACzQHMAawCJw8AA8cDrAOFA8gD3APIAbMBwwHVATsBaQGY
+        AUcBcAGeAYYBngG6A/IDyHIAAm8BcAPvAm8BcCfvAm8BcA8AAaoBFgETAa0BmQGFAc4BxwGzAdgB0wHD
+        AeMB3wHUAe4B7AHlAvoB+AH7AfoB+QH1AfQB8QH0AfMB8AHzAfIB7wHyAfEB7gHxAfAB7QHvAe4C6wHq
+        AegB5wHmAeQB1AHTAdIBrQIpFQADywPWA9sDxwMAA8YB7AHwAfIB5QHpAe0D2APHeAACbwFwAm8BcCf/
+        Am8BcBIAAbkCAAGfAgABnwIAAZ8CAAGfAgABnwIAAZ8CAAGfAgABnwIAAZ8CAAGfAgABnwIAAZ8CAAGf
+        AgABnwIAAZ8sAAPIhAACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJvAXACbwFwAm8BcAJv
+        AXACbwFwAm8BcAJvAXBjAAO0A5ADfgxmA34DkAO0KgADtAOQA34MZgN+A5ADtCoAA7QDkAN+DGYDfgOQ
+        A7QqAAO0A5ADfgxmA34DkAO0JAADtAN+AWMBbQFjAVQBjgFWAUcBsAFKAUABxQFGATwB1QFFAT4B1wFJ
+        AUIB0gFOAU0BtgFXAVkBkwFgAWQBbgFlA34DtB4AA7QDfgJgAXACRAGfAisBzwIfAewCGwH/AiAB/wIu
+        AewCPwHPAlMBnwJjAXADfgO0HgADtAN+AXACYAGfAUcBQAHPATIBIAHsASwBDQH/ASwBAAH/ATYBAAHs
+        AUUBDQHPAVMBIAGfAWABQAFwAWUBYAN+A7QeAAO0A34BcAJgAZ8BRwFAAc8BMgEgAewBLAENAf8BLAEA
+        Af8BNgEAAewBRQENAc8BUwEgAZ8BYAFAAXABZQFgA34DtBsAA5wDZgFOAZoBTwE6AckBPQE5AdIBPgE7
+        AdQBQwE9AdYBRgE/AdgBSgFBAdoBTgFCAdsBUgFEAd0BVQFGAd8BWQFKAdkBXQFYAaQBYwNmA5wYAAOc
+        A2YCNwGzAhEB9QIRAf8CFwH/Ah0B/wIjAf8CKQH/Ai4B/wI0Af8COQH/AkEB9QJVAbMDZgOcGAADnANm
+        AbMBOQEzAfUBGAEGAf8BHAEAAf8BJwEAAf8BMAEAAf8BOwEAAf8BRAEAAf8BTQEAAf8BVgEAAf8BXwEA
+        AfUBaAEGAbMBbAEzA2YDnBgAA5wDZgGzATkBMwH1ARgBBgH/ARwBAAH/AScBAAH/ATABAAH/ATsBAAH/
+        AUQBAAH/AU0BAAH/AVYBAAH/AV8BAAH1AWgBBgGzAWwBMwNmA5wVAAOKAWMBbQFjAT8BuwFBATgB0QE8
+        AToB0wFAATwB1QFEAT4B1wFIAT8B2AFMAUEB2gFQAUMB3AFTAUUB3gFXAUcB4AFbAUgB4QFeAUoB4wFh
+        AUwB5QFlAVIBzgFoAWUBbgFmA4oSAAOKAmABcAIaAeICDgH/AhQB/wIaAf8CIAH/AiUB/wIrAf8CMQH/
+        AjYB/wI7Af8CQAH/AkYB/wJKAf8CVAHiAmUBcAOKEgADigFwAmAB4gEfARMB/wEXAQAB/wEhAQAB/wEr
+        AQAB/wE0AQAB/wE+AQAB/wFJAQAB/wFRAQAB/wFaAQAB/wFjAQAB/wFrAQAB/wF0AQAB/wF8AQAB4gF/
+        ARMBcAFpAWADihIAA4oBcAJgAeIBIQETAf8BFwEAAf8BIQEAAf8BKwEAAf8BNAEAAf8BPQEAAf8BSAEA
+        Af8BUQEAAf8BWgEAAf8BYwEAAf8BawEAAf8BdAEAAf8BfAEAAeIBfwETAXABaAFgA4oPAAOcAWMBbQFj
+        AUABvAFDATgB0QE+AToB0wFCATwB1QFGAT4B1wFKAUAB2QFOAUIB2wFRAUQB3QFVAUYB3wFYAUgB4QFc
+        AUkB4gFfAUsB5AFjAU0B5gFmAU4B5wFpAVAB6QFsAVUB0QFuAWUBbgFnA5wMAAOcAmABcAIcAeICEAH/
+        AhYB/wIcAf8CIgH/AigB/wItAf8CMwH/AjgB/wI+Af8CQwH/AkgB/wJNAf8CUQH/AlYB/wJdAeICZgFw
+        A5wMAAOcAXABYQFgAeIBIgETAf8BHAEAAf8BJQEAAf8BLwEAAf8BOQEAAf8BQgEAAf8BTAEAAf8BVQEA
+        Af8BXgEAAf8BZgEAAf8BbwEAAf8BdwEAAf8BgAEAAf8BhQEAAf8BjwEAAeIBjgETAXABagFgA5wMAAOc
+        AXABYQFgAeIBIQETAf8BHAEAAf8BJQEAAf8BLwEAAf8BOQEAAf8BQgEAAf8BTQEAAf8BXwEQAf8BfAEw
+        Af8BZgEAAf8BbwEAAf8BdwEAAf8BgAEAAf8BhwEAAf8BjwEAAeIBjgETAXABagFgA5wJAAO0A2YBQAG9
+        AUQBOQHSAUABOwHUAUQBPQHWAUgBPwHYAUsBQQHaAU8BQwHcAVMBRQHeAVYBRgHfAVoBSAHhAV0BSgHj
+        AWEBTAHlAWQBTQHmAWgBTwHoAWsBUAHpAW4BUgHrAXEBUwHsAXQBWAHUAXMDZgO0BgADtANmAh4B4gIT
+        Af8CGQH/Ah8B/wIlAf8CKgH/AjAB/wI1Af8COwH/AkAB/wJFAf8CSgH/Ak8B/wJTAf8CWAH/AlwB/wJh
+        Af8CZQHiA2YDtAYAA7QDZgHiASYBEwH/ASEBAAH/ASkBAAH/ATMBAAH/AT4BAAH/AUYBAAH/AXoBQAH/
+        AaoBgAH/Aa8BgAH/AbMBgAH/AbcBgAH/AawBYAH/AYMBAAH/AYsBAAH/AZIBAAH/AZoBAAH/AaEBAAHi
+        AZwBEwNmA7QGAAO0A2YB4gEmARMB/wEhAQAB/wEpAQAB/wEzAQAB/wE9AQAB/wFGAQAB/wFPAQAB/wFZ
+        AQAB/wG4AY8B/wHjAc8B/wFzAQAB/wF7AQAB/wGDAQAB/wGLAQAB/wGSAQAB/wGaAQAB/wGhAQAB4gGc
+        ARMDZgO0BgADfgFPAZwBUgE6AdMBQQE8AdUBRQE+AdcBSQFAAdkBTQFOAd0BWwFEAd0BVAFFAd4BWAFH
+        AeABWwFJAeIBXwFLAeQBYgFMAeUBZgFOAecBaQFPAegBbAFRAeoBbwFSAesBcgFUAe0BdQFVAe4BeAFX
+        AfABegFfAasBcQN+BgADfgI8AbMCFQH/AhsB/wIhAf8CJwH/Ai0B/wIyAf8CNwH/Aj0B/wJCAf8CRwH/
+        AkwB/wJRAf8CVQH/AloB/wJeAf8CYwH/AmcB/wJrAf8CagGzA34GAAN+AbMBQgEzAf8BIQEAAf8BLwEA
+        Af8BNwEAAf8BQAEAAf8BSgEAAf8BUwEAAf8BrQGADf8B4gG/Af8BjgEAAf8BlgEAAf8BnQEAAf8BpAEA
+        Af8BqwEAAf8BsgEAAbMBjwEzA34GAAN+AbMBQgEzAf8BIQEAAf8BLwEAAf8BOQEAAf8BQQEAAf0BSgEC
+        Af8BUwEAAf8BXAEAAf8BigFAB/8BvwGAAf8BhgEAAf8BjgEAAf8BlgEAAf8BnQEAAf8BpAEAAf8BqwEA
+        Af8BsgEAAbMBjwEzA34DAAO0AWMBbQFkAT4BzQFFAT0B1gFHAT8B2AFLAUEB2gFPAUMB3AFSAXMB5gGA
+        AegB+wHqAYwB7AGZAUoB4wFgAUsB5AFkAU0B5gFnAU8B6AFqAVAB6QFtAVIB6wFwAVMB7AFzAVQB7QF2
+        AVYB7wF5AVcB8AF7AVkB8gF+AVoB6gF/AWUBbwFoBrQCYQFwAh0B9QIeAf8CJAH/AikB/wIvAf8CNAH/
+        As0B/wLOAf8C0AH/Ao0B/wJvAf8C0wH/AtQB/wLWAf8CnAH/AmQB/wJpAf8CbAH/AnAB/wJzAfUCZwFw
+        BrQBcAFiAWAB9QEsAQYB/wEzAQAB/wE7AQAB/wFEAQAB/wFOAQAB/wFXAQAB/wFfAQAB/wGhAWAN/wHk
+        Ab8B/wGZAQAB/wGgAQAB/wGnAQAB/wGuAQAB/wG1AQAB/wG7AQAB9QG8AQYBcAFsAWAGtAFwAWIBYAH1
+        ASwBBgH/ATMBAAH/ATsBAAH/AUQBAAH/AU8BAAH/AVcBAAH/AV8BAAH/AXIBEAH/Ae0B3wr/AaYBMAH/
+        AZkBAAH/AaABAAH/AacBAAH/Aa4BAAH/AbUBAAH/AbsBAAH1AbwBBgFwAWwBYAO0A5ABVwGQAVoBPgHX
+        AUkBQAHZAUwBQgHbAVABQwHcAVQBRQHeAVcBdQHoAYQG/wHpAfwB7AGQAfABoAFPAegBawFRAeoBbgFS
+        AesBcQFUAe0BdAFVAe4BdwFWAe8BegFYAfEBfAFZAfIBfwFaAfMBgQFbAfQBhAFiAZwBcgaQAksBnwIg
+        Af8CJgH/AiwB/wIxAf8CNwH/AjwK/wKoAf8Cfwr/ArMB/wJqAf8CbgH/AnIB/wJ2Af8CeQH/Am4BnwaQ
+        AZ8BUgFAAf8BNgEAAf8BQAEAAf8BSQEAAf8BUwEAAf8BWwEAAf8BZAEAAf8BbQEAAf8BlwFADf8BzwGA
+        Af8BowEAAf8BqgEAAf8BsQEAAf8BuAEAAf8BwAEAAf8BxAEAAf8BygEAAZ8BjQFABpABnwFSAUAB/wE2
+        AQAB/wE/AQAB/wFIAQAB/wFTAQAB/wFbAQAB/wFkAQAB/wFtAQAB/wHBAY8N/wHsAc8B/wGjAQAB/wGq
+        AQAB/wGxAQAB/wG4AQAB/wG+AQAB/wHEAQAB/wHKAQABnwGNAUADkAN+AUsBtAFTAUEB2gFOAUIB2wFS
+        AUQB3QFVAUYB3wFZAUgB4QFcAXcB6QGHDP8B6QH8Ae0BkwHzAacBXwHuAX4BVgHvAXgBVwHwAXsBWAHx
+        AX4BWgHzAYABWwH0AYIBXAH1AYUBXQH2AYcBYAHKB34COQHPAikB/wIuAf8CNAH/AjkB/wI+Af8CQwr/
+        AqsB/wKECv8CtgH/AnAB/wJ0Af8CdwH/AnsB/wJ+Af8CeAHPBn4BzwFJASAB/wFCAQAB/wFNAQAB/wFW
+        AQAB/wFfAQAB/wFoAQAB/wFwAQAB/wF5AQAB/wGYATAN/wHUAYAB/wGtAQAB/wG0AQAB/wG6AQAB/wHB
+        AQAB/wHHAQAB/wHMAQAB/wHSAQABzwGzASAGfgHPAUkBIAH/AUIBAAH/AU0BAAH/AVYBAAH/AV8BAAH/
+        AWgBAAH/AXABAAH/AZkBQBP/AdEBcAH/AbQBAAH/AboBAAH/AcEBAAH/AccBAAH/AcwBAAH/AdIBAAHP
+        AbMBIAN+A2YBRAHTAVEBQwHcAVMBRQHeAVcBRwHgAVsBSAHhAV4BSgHjAWEBeQHrAYsS/wH0Af4B9wGr
+        AfgBvQFjAfMBhwFaAfMBgQFbAfQBgwFcAfUBhgFdAfYBiAFeAfcBigFgAeYBhwZmAi8B9QIwAf8CNgH/
+        AjsB/wJAAf8CRgH/AkoK/wKvAf8CiAr/ArkB/wJ1Af8CeQH/AnwB/wJ/Af8CggH/AoEB7AZmAfUBSgEG
+        Af8BUQEAAf8BWgEAAf8BYwEAAf8BawEAAf8BdAEAAf8BfAEAAf8BhQEAAf8BiwEADf8BxQFAAf8BtwEA
+        Af8BvQEAAf8BwwEAAf8ByQEAAf8BzwEAAf8B1AEAAf8B2QEAAewBzwENBmYB7AFFAQ0B/wFRAQAB/wFa
+        AQAB/wFjAQAB/wFrAQAB/wF0AQAB/wF8AQAB/wHnAc8T/wH6Ae8B/wHFASAB/wHDAQAB/wHJAQAB/wHP
+        AQAB/wHUAQAB/wHZAQAB7AHPAQ0GZgFEAd0BVQFGAd8BWAFIAeEBXAFJAeIBXwFLAeQBYwFNAeYBZgF6
+        Ae0Bjhj/AfUB/gH3Aa0B+gHBAWcB9gGOAV4B9wGJAV8B+AGLAWAB+QGNAWEB+gGOBmYCMwH/AjgB/wI+
+        Af8CQwH/AkgB/wJMAf8CUQr/ArIB/wKNCv8CuwH/AnoB/wJ9Af8CgQH/AoQB/wKGAf8CiQH/BmYB/wFV
+        AQAB/wFeAQAB/wFmAQAB/wFvAQAB/wF3AQAB/wGPASAB/wHgAb8B/wHiAb8B/wHkAb8N/wHxAc8B/wHu
+        Ab8B/wHwAb8B/wHcAVAB/wHRAQAB/wHWAQAB/wHbAQAB/wHgAQAB/wHkAQAGZgH/AVUBAAH/AV4BAAH/
+        AWYBAAH/AW8BAAH/AXcBAAH/AYABAAH/AcIBgBn/AfEBvwH/AcsBAAH/AdEBAAH/AdYBAAH/AdsBAAH/
+        AeABAAH/AeQBAAZmAUYB3wFaAUgB4QFdAUoB4wFhAUwB5QFkAU0B5gFoAU8B6AFrAXwB7wGSHv8BwwH8
+        AdMBXwH4AYsBYAH5AY0BYQH6AY8BYgH7AZEGZgI7Af8CQAH/AkUB/wJKAf8CTwH/AlMB/wJYCv8CtQH/
+        ApEK/wK+Af8CfwH/AoIB/wKFAf8CiAH/AooB/wKNAf8GZgH/AWEBAAH/AWoBAAH/AXMBAAH/AXsBAAH/
+        AYMBAAH/AYsBAAH/Ac8Bjxn/AfkB3wH/AdMBAAH/AdgBAAH/Ad0BAAH/AeIBAAH/AeYBAAH/AeoBAAZm
+        Af8BYQEAAf8BagEAAf8BcwEAAf8BewEAAf8BgwEAAf8BkgEQAf8B5QG/Af8B5wG/Af8B6AG/Df8B9AHP
+        Af8B8gG/Af8B8wG/Af8B3wFAAf8B2AEAAf8B3QEAAf8B4gEAAf8B5gEAAf8B6gEABmYBSwHaAV8BSwHk
+        AWIBTAHlAWYBTgHnAWkBTwHoAWwBUQHqAW8BfQHwAZUY/wHDAfwB0wFzAfkBmQFgAfkBjAFhAfoBjgFh
+        AfoBkAFiAfsBkQFjAekBjQZmAkQB9QJHAf8CTAH/AlEB/wJVAf8CWgH/Al4K/wK3Af8ClQr/AsAB/wKD
+        Af8ChgH/AokB/wKLAf8CjgH/AooB7AZmAfUBbQEGAf8BdgEAAf8BfgEAAf8BiQEAAf8BjgEAAf8BlgEA
+        Af8BowEQAf8B9AHfFv8B4QFAAf8B2gEAAf8B3wEAAf8B5AEAAf8B6AEAAf8B7AEAAewB3gENBmYB9QFt
+        AQYB/wF2AQAB/wF+AQAB/wGGAQAB/wGOAQAB/wGWAQAB/wGdAQAB/wGkAQAB/wGrAQAN/wHYAUAB/wHQ
+        AQAB/wHVAQAB/wHaAQAB/wHfAQAB/wHkAQAB/wHoAQAB/wHsAQAB7AHeAQ0DZgN+AVQBvQFlAU0B5gFn
+        AU8B6AFqAVAB6QFtAVIB6wFwAVMB7AFzAX8B8gGYEv8BwwH8AdIBcgH4AZgBXwH4AYsBYAH5AY0BYQH6
+        AY8BYgH7AZEBYwH8AZIBYwH8AZQBZQHOAYYGfgJSAc8CTgH/AlMB/wJXAf8CXAH/AmAB/wJkCv8CugH/
+        ApkK/wLCAf8ChwH/AooB/wKMAf8CjwH/ApEB/wKEAc8GfgHPAXQBIAH/AYIBAAH/AYkBAAH/AZEBAAH/
+        AZkBAAH/AaABAAH/AacBAAH/AcIBQBP/Ae8BjwH/Ad0BAAH/AeEBAAH/AeYBAAH/AeoBAAH/Ae4BAAH/
+        AfEBAAHPAcgBIAZ+Ac8BdAEgAf8BggEAAf8BhwEAAf8BkgEAAf8BmQEAAf8BoAEAAf8BpwEAAf8BrgEA
+        Af8BwgEwDf8B5gFwAf8B2AEAAf8B3QEAAf8B4QEAAf8B5gEAAf8B6gEAAf8B7gEAAf8B8QEAAc8ByAEg
+        A34DkAFdAZYBZwFPAegBawFRAeoBbgFSAesBcQFUAe0BdAFVAe4BdwGAAfMBmwz/AcIB/AHSAXIB+AGX
+        AV8B+AGKAWAB+QGMAWAB+QGOAWEB+gGQAWIB+wGRAWMB/AGTAWQB/QGUAWQB/QGVAWUBnwF4BpACXgGf
+        AlUB/wJZAf8CXgH/AmIB/wJmAf8Cagr/Ar0B/wKdCv8CxAH/AosB/wKNAf8CkAH/ApIB/wKTAf8CdwGf
+        BpABnwFyAUAB/wGNAQAB/wGVAQAB/wGcAQAB/wGjAQAB/wGqAQAB/wGxAQAB/wG4AQAB/wHrAa8N/wH7
+        Ad8B/wHhARAB/wHjAQAB/wHnAQAB/wHrAQAB/wHvAQAB/wHzAQAB/wH2AQABnwGdAUAGkAGfAXIBQAH/
+        AY0BAAH/AZUBAAH/AZwBAAH/AaMBAAH/AaoBAAH/AbEBAAH/AbgBAAH/Ac4BQA3/Ae0BgAH/Ad8BAAH/
+        AeMBAAH/AecBAAH/AesBAAH/Ae8BAAH/AfMBAAH/AfYBAAGfAZ0BQAOQA7QBZQFuAWYBUwHiAW8BUwHs
+        AXMBVAHtAXYBVgHvAXgBVwHwAXsBggH1AZ4G/wHCAfsB0gFxAfcBlgFeAfcBiQFfAfgBiwFgAfkBjQFh
+        AfoBjwFiAfsBkAFiAfsBkgFjAfwBkwFkAf0BlQFkAf0BlgFlAfQBlAFmAXABaQa0AmUBcAJcAfUCYAH/
+        AmQB/wJoAf8CbAH/AnAK/wK/Af8CoAr/AsYB/wKOAf8CkAH/ApIB/wKUAf8CkwH1AmkBcAa0AXABaQFg
+        AfUBlQEGAf8BnwEAAf8BpgEAAf8BrQEAAf8BtAEAAf8BugEAAf8BwQEAAf8BygEQAf8B/AHvCv8B6QFA
+        Af8B5QEAAf8B6QEAAf8B7QEAAf8B8QEAAf8B9AEAAf8B9wEAAfUB8AEGAXABbwFgBrQBcAFoAWAB9QGV
+        AQYB/wGfAQAB/wGmAQAB/wGtAQAB/wG0AQAB/wG6AQAB/wHBAQAB/wHeAXAN/wH0AZ8B/wHlAQAB/wHp
+        AQAB/wHtAQAB/wHxAQAB/wH0AQAB/wH3AQAB9QHwAQYBcAFvAWADtAMAA34BXQGpAW0BVQHuAXcBVgHv
+        AXkBWAHxAXwBWQHyAX8BeQH1AZkBwgH7AdEBcQH3AZUBXQH2AYgBXgH3AYoBXwH4AYwBYAH5AY4BYQH6
+        AY8BYgH7AZEBYwH8AZIBYwH8AZQBZAH9AZUBZQH+AZYBZQH+AZcBZgGyAX8DfgYAA34CZAGzAmYB/wJq
+        Af8CbgH/AnEB/wJ1Af8CeQH/AnwB/wJ/Af8CggH/AoUB/wKIAf8CiwH/Ao0B/wKPAf8CkQH/ApMB/wKV
+        Af8ClgH/An8BswN+BgADfgGzAYUBMwH/AakBAAH/AbABAAH/AbcBAAH/Ab0BAAH/AcMBAAH/AckBAAH/
+        Ac8BAAH/AeEBUAf/AfMBjwH/AecBAAH/AesBAAH/Ae8BAAH/AfIBAAH/AfUBAAH/AfgBAAH/AfoBAAGz
+        AbEBMwN+BgADfgGzAYQBMwH/AakBAAH/AbABAAH/AbcBAAH/Ab0BAAH/AcMBAAH/AckBAAH/AeYBgA3/
+        AfkBvwH/AesBAAH/Ae8BAAH/AfIBAAH/AfUBAAH/AfgBAAH/AfoBAAGzAbEBMwN+BgADtANmAVoB1gF3
+        AVgB8QF9AVkB8gGAAVsB9AGCAVwB9QGEAV0B9gGHAV4B9wGJAV8B+AGLAWAB+QGNAWEB+gGOAWIB+wGQ
+        AWIB+wGSAWMB/AGTAWQB/QGUAWQB/QGWAWUB/gGXAWUB/gGXAWYB4gGPA2YDtAYAA7QDZgJqAeICbwH/
+        AnMB/wJ3Af8CegH/An0B/wKBAf8ChAH/AoYB/wKJAf8CjAH/Ao4B/wKQAf8CkgH/ApQB/wKVAf8ClwH/
+        Ao4B4gNmA7QGAAO0A2YB4gGkARMB/wG5AQAB/wHAAQAB/wHGAQAB/wHMAQAB/wHRAQAB/wHWAQAB/wHb
+        AQAB/wH1Aa8B/wH+Ae8B/wHqARAB/wHtAQAB/wHwAQAB/wH0AQAB/wH2AQAB/wH5AQAB/wH7AQAB4gHh
+        ARMDZgO0BgADtANmAeIBpAETAf8BuQEAAf8BwAEAAf8BxgEAAf8BywEAAf8B0QEAAf8B4QFAAf8B7gGA
+        Af8B8AGAAf8B8wGAAf8B9QGAAf8B9AFgAf8B8AEAAf8B9AEAAf8B9gEAAf8B+QEAAf8B+wEAAeIB4QET
+        A2YDtAkAA5wBZQFvAWgBWwHhAX0BWwH0AYMBXAH1AYUBXQH2AYgBXgH3AYoBXwH4AYsBYAH5AY0BYQH6
+        AY8BYgH7AZEBYwH8AZIBYwH8AZQBZAH9AZUBZQH+AZYBZQH+AZcBZQH+AZgBZgHiAY8BZgFwAWkDnAwA
+        A5wCZwFwAnIB4gJ4Af8CfAH/An8B/wKCAf8ChQH/AogB/wKKAf8CjQH/Ao8B/wKRAf8CkwH/ApUB/wKW
+        Af8ClwH/Ao8B4gJpAXADnAwAA5wBcAFrAWAB4gGxARMB/wHIAQAB/wHOAQAB/wHTAQAB/wHYAQAB/wHd
+        AQAB/wHiAQAB/wHoARAB/wHwAUAB/wHuAQAB/wHyAQAB/wH1AQAB/wH4AQAB/wH6AQAB/wH8AQAB4gHh
+        ARMCcAFgA5wMAAOcAXABbAFgAeIBsQETAf8ByAEAAf8BzgEAAf8B0wEAAf8B2AEAAf8B3QEAAf8B4gEA
+        Af8B5gEAAf8B6gEAAf8B7gEAAf8B8gEAAf8B9QEAAf8B+AEAAf8B+gEAAf8B/AEAAeIB4QETAnABYAOc
+        DwADigFlAW8BaAFeAdsBgAFeAfcBiAFfAfgBigFgAfkBjAFhAfoBjgFhAfoBkAFiAfsBkQFjAfwBkwFk
+        Af0BlAFkAf0BlQFlAf4BlwFlAf4BlwFmAf8BmAFmAeIBjwFmAXABaQOKEgADigJnAXACeQHiAoAB/wKD
+        Af8ChgH/AokB/wKLAf8CjgH/ApAB/wKSAf8ClAH/ApUB/wKXAf8CmAH/Ao8B4gJpAXADihIAA4oBcAFs
+        AWAB4gG8ARMB/wHVAQAB/wHaAQAB/wHfAQAB/wHkAQAB/wHoAQAB/wHsAQAB/wHwAQAB/wHzAQAB/wH2
+        AQAB/wH5AQAB/wH7AQAB/wH9AQAB4gHhARMCcAFgA4oSAAOKAXABbAFgAeIBvAETAf8B1QEAAf8B2gEA
+        Af8B3wEAAf8B5AEAAf8B6AEAAf8B7AEAAf8B8AEAAf8B8wEAAf8B9gEAAf8B+QEAAf8B+wEAAf8B/QEA
+        AeIB4QETAnABYAOKFQADnANmAWMBrwF4AWAB8AGLAWEB+gGPAWIB+wGQAWMB/AGSAWMB/AGTAWQB/QGV
+        AWQB/QGWAWUB/gGXAWUB/gGYAWYB9QGVAWYBswF/A2YDnBgAA5wDZgJ1AbMChQH1AooB/wKMAf8CjwH/
+        ApEB/wKTAf8ClAH/ApYB/wKXAf8ClQH1An8BswNmA5wYAAOcA2YBswGhATMB9QHaAQYB/wHmAQAB/wHq
+        AQAB/wHuAQAB/wHxAQAB/wH0AQAB/wH3AQAB/wH6AQAB/wH8AQAB9QH0AQYBswGyATMDZgOcGAADnANm
+        AbMBoQEzAfUB2gEGAf8B5gEAAf8B6gEAAf8B7gEAAf8B8QEAAf8B9AEAAf8B9wEAAf8B+gEAAf8B/AEA
+        AfUB9AEGAbMBsgEzA2YDnBsAA7QDfgFmAW8BaQFkAZ4BdgFkAc0BhQFkAfMBkQFkAf0BlQFlAf4BlgFl
+        AfUBlAFmAc8BiAFmAZ8BeQFmAXABaQN+A7QeAAO0A34CaAFwAnQBnwKCAc8CjwH1ApMB/wKVAf8CkwH1
+        AogBzwJ5AZ8CaQFwA34DtB4AA7QDfgFwAWwBYAGfAZgBQAHPAcQBIAH1AeoBBgH/AfYBAAH/AfgBAAH1
+        AfEBBgHPAc0BIAKfAUACcAFgA34DtB4AA7QDfgFwAW4BYAGfAZgBQAHPAcQBIAH1AeoBBgH/AfYBAAH/
+        AfgBAAH1AfEBBgHPAc0BIAKfAUACcAFgA34DtCQAA7QDkAN+DGYDfgOQA7QqAAO0A5ADfgxmA34DkAO0
+        KgADtAOQA34MZgN+A5ADtCoAA7QDkAN+DGYDfgOQA7QVAAFCAU0BPgcAAT4DAAEoAwABYAMAAUgDAAEB
+        AQABAQUAAWABAxYAA/8BAAHAAQABAwb/AwABwAEAAQME/wEAAf8DAAHAAQABAwH/AcEB/wYAAcABAAED
+        Af8BAAF/BgABwAEAAQMB/AEAAR8GAAHAAQABAwHwAQABBwYAAcABAAEDAcABAAEBBgABwAEAAQMBgAgA
+        AcABAAEDAgABAQYAAcABAAEDAYABAAEBBgABwAEAAQMBwAEAAQEGAAHAAQABAwHAAQABAQYAAcABAAED
+        AcABAAEBBgABwAEAAQMBwAEAAQEGAAHAAQABAwHAAQABAQYAAcABAAEDAYAIAAHAAQABAwGACAABwAEA
+        AQMBwAEAAQEGAAHAAQABAwHwAQABAwYAAcABAAEDAfwBAAEHAcIBAAFjAwABwAEAAQMB/wEAAQ8BwgEA
+        AWMDAAHAAQABAwH/AcABHwH/AQAB/wMAAcABAAEDAf8B8AE/Af8BgQH/AwABwAEAAQMG/wMAAfwBDwT/
+        AcABAAEDA/8B/AEAAX8D/wHAAQABAwP/AfgBAAF/A/8BwAEAAQMBgAEAAQEB/AEAAT8D/wHAAQABAwGA
+        AQABAQH8AQABPwGAAQABAQHAAQABAwGAAQABAQH8AQABHwGAAQABAQHAAQABAwGAAQABAQH8AQABDwGA
+        AQABAQHAAQABAwGAAQABAQH8AQABAwGAAQABAQHAAQABAwGAAQABAQH4AQABAQGAAQABAQHAAQABAwGA
+        AQABAQH8AgABgAEAAQEBwAEAAQMBgAEAAQEB+AIAAYABAAEBAcABAAEDAYABAAEBAfACAAGAAQABAQHA
+        AQABAwGAAQABAQHgAgABgAEAAQEBwAEAAQMBgAEAAQEBwAIAAYABAAEBAcABAAEDAYABAAEBAYABAAEB
+        AYABAAEBAcABAAEDAYABAAEBAYABAAEDAYABAAEBAcABAAEDAYABAAEBAgABDwGAAQABAQHAAQABAwGA
+        AQABAQGAAQABHwGAAQABAQHAAQABAwGAAQABAQHAAQABPwGAAQABAQHAAQABAwGAAQABAQHgAQAB/wGA
+        AQABAQHgAQABAwGAAQABAQHgAQAB/wGAAQABAQHwAQABAwHAAQABAwHgAQEE/wH4AQABAwHgAQABBwHw
+        AYME/wH8AQABAwHwAQABDwH/Ad8E/wH+AQABAwP/Af4BAAF/Af4BAAF/Af4BAAF/Af4BAAF/AfgBAAEf
+        AfgBAAEfAfgBAAEfAfgBAAEfAfABAAEPAfABAAEPAfABAAEPAfABAAEPAeABAAEHAeABAAEHAeABAAEH
+        AeABAAEHAcABAAEDAcABAAEDAcABAAEDAcABAAEDAYABAAEBAYABAAEBAYABAAEBAYABAAEBAYABAAEB
+        AYABAAEBAYABAAEBAYABAAEBeAABgAEAAQEBgAEAAQEBgAEAAQEBgAEAAQEBgAEAAQEBgAEAAQEBgAEA
+        AQEBgAEAAQEBwAEAAQMBwAEAAQMBwAEAAQMBwAEAAQMB4AEAAQcB4AEAAQcB4AEAAQcB4AEAAQcB8AEA
+        AQ8B8AEAAQ8B8AEAAQ8B8AEAAQ8B+AEAAR8B+AEAAR8B+AEAAR8B+AEAAR8B/gEAAX8B/gEAAX8B/gEA
+        AX8B/gEAAX8WAAs=
+</value>
+  </data>
+  <data name="mnuFileMultiplayerScoreboard.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="toolBarButton1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsurance.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsSnapshot.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuReportsRetirementStatements.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="CurrentEntityPanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditCreditCards.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="toolBarButton15.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceHomeowners.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton13.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem50.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem56.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInsuranceRenters.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="EntityCriticalResourcePanel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="EntityCriticalResourcePanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="tlbMain.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuLoanStatements.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeTaxes.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="tlbMain.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuActionsIncomePayment.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileMultiplayerStart.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="ilsMainToolBar.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="SpacerPanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuActionsCredit.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuReportsInvestmentStatements.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvestingMyPortfolio.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsLivingTimeMgt.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuLoanStatements.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem53.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileNew.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuItem50.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="NewMessagesPanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuFileSaveAs.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tlbMain.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuFileOpenSavedSim.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="toolBarButton13.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsInvesting.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeWitholding.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuActionsMM.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsLivingTransportation.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsIncomeEducation.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuHelpTutorial.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="menuMessagesSep.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+  <data name="mnuActionsMMBanking.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuOptionsProvideFood.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsCreditForGoods.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="mnuReportsCheckbook.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="mnuActionsMMOnlineBanking.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Public</value>
+  </data>
+  <data name="TimePanel.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Family</value>
+  </data>
+</root>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KMI.VBPF1Lib.Task" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBmAQAAioAAAAAAAgAgiGCABAACAAAAAAECgAAE=</HashCode>
+      <FileName>KMI\VBPF1Lib\Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.AttendClass" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEAAAAAAAAAIAAAAAACCAAARCAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\AttendClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.Eat" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACCAAAACAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\Eat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.Exercise" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACCAAAACAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\Exercise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.OneTimeEvent" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQEAAEEAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\OneTimeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.Relax" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACCAAAACAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\Relax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.ShopFastFood" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAKAAAAAAAIAAAAAACAABAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\ShopFastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.Sleep" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACCAAAACAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\Sleep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.TravelTask" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAIAAAAAAAAAAAgAAAAIAACAAAAAAAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\TravelTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkTask" Collapsed="true">
+    <Position X="20.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAiAAgAAAgAIAQUgCAASAKAAAAgDYAAAQg=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.Dance" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAACCAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\Dance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.BeSick" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\BeSick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.TravelByBus" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAIAAAAAAAAAAAAACCAAAAAAAEAABEABAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\TravelByBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.TravelByCar" Collapsed="true">
+    <Position X="15" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAAAAAAAAAAAAACCAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\TravelByCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.TravelByFoot" Collapsed="true">
+    <Position X="16.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAACCAAAAAAAEAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\TravelByFoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkCounterFastFood" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACAABAAAAAAAABUAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkCounterFastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkInvisible" Collapsed="true">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkInvisible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkMgrFastFood" Collapsed="true">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACAABAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkMgrFastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkOfficeDesk" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAAAAAAAAAQACAAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkOfficeDesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkStoreMgrFastFood" Collapsed="true">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACCABAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkStoreMgrFastFood.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkTravellingSalesman" Collapsed="true">
+    <Position X="25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAEAAABAAAAAAACAAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkTravellingSalesman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkHospital1" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkHospital1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkHospital2" Collapsed="true">
+    <Position X="19" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkHospital2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkHospital3" Collapsed="true">
+    <Position X="20.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkHospital3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkInternet1" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkInternet1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkInternet2" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkInternet2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkInternet3" Collapsed="true">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkInternet3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkOfficeMgr" Collapsed="true">
+    <Position X="18.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkOfficeMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkOfficeSup" Collapsed="true">
+    <Position X="20.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkOfficeSup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkDrugRep" Collapsed="true">
+    <Position X="24" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkDrugRep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KMI.VBPF1Lib.WorkPizzaGuy" Collapsed="true">
+    <Position X="26" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>KMI\VBPF1Lib\WorkPizzaGuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

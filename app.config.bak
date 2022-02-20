@@ -1,0 +1,79 @@
+﻿<configuration>
+	<system.runtime.remoting>
+		<customErrors mode="off"/>
+	</system.runtime.remoting>
+	<system.diagnostics>
+		<switches>
+			<add name="AssertSwitch" value="1"/>
+			<add name="LogSwitch" value="4"/>
+		</switches>
+	</system.diagnostics>
+	<appSettings>
+		<add key="DefaultDirectory" 		value=""/> 			<!-- string -->
+		<add key="P" 						value="11"/> 		<!-- int -->
+		<add key="ProxyAddress" 			value=""/> 			<!-- string -->
+		<add key="ProxyBypassList" 			value=""/> 			<!-- string --> <!-- Separate with semicolons -->
+		<add key="NoSound" 					value="false"/> 	<!-- bool -->
+		<add key="MultiplayerBasePort" 		value="20172"/> 	<!-- int --> <!-- Define a contiguous set of multiplayer ports that are available -->
+		<add key="MultiplayerPortCount" 	value="10"/> 		<!-- int -->
+		<add key="ClientDrawStepPeriod" 	value="250"/> 		<!-- int -->
+		<add key="PasswordsForMultiplayer" 	value="false"/> 	<!-- bool -->
+		<add key="SupportedLanguageCodes" 	value=""/> 			<!-- string -->
+		<add key="SupportedLanguageNames" 	value=""/> 			<!-- string -->
+		<add key="PreferredLanguageCode" 	value=""/> 			<!-- string -->
+		<add key="ScoreAdapterServerName" 	value=""/> 			<!-- string -->
+	</appSettings>
+</configuration>
+<!--
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <applicationSettings>
+        <Properties.Settings>
+            <setting name="DefaultDirectory" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="P" serializeAs="String">
+                <value>11</value>
+            </setting>
+            <setting name="ProxyAddress" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ProxyBypassList" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="NoSound" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="MultiplayerBasePort" serializeAs="String">
+                <value>20172</value>
+            </setting>
+            <setting name="MultiplayerPortCount" serializeAs="String">
+                <value>10</value>
+            </setting>
+            <setting name="ClientDrawStepPeriod" serializeAs="String">
+                <value>250</value>
+            </setting>
+            <setting name="PasswordsForMultiplayer" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SupportedLanguageCodes" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SupportedLanguageNames" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PreferredLanguageCode" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ScoreAdapterServerName" serializeAs="String">
+                <value />
+            </setting>
+        </Properties.Settings>
+    </applicationSettings>
+</configuration>
+-->
