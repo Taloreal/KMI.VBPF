@@ -57,7 +57,6 @@ namespace KMI.VBPF1Lib {
                 QuantityPrice = GetPrice(shop);
                 QuantListing = new QuantityListing();
                 QuantListing.SetQuantityType((QuantityType)shop, GetQuantityPurchasable(shop));
-                //QuantityListing = ShopReference.GetUI[shop]();
             }
             this.CreateCategoryListings(ref num);
             foreach (PurchasableItem item in this.PurchasableItems) {

@@ -44,9 +44,6 @@
     <EmbeddedResource Include="KMI\VBPF1Lib\FrmDebugOfferings.resx">
       <DependentUpon>FrmDebugOfferings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KMI\VBPF1Lib\frmShopImproved.resx">
-      <DependentUpon>frmShopImproved.cs</DependentUpon>
-    </EmbeddedResource>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -73,12 +70,6 @@
     </Compile>
     <Compile Include="KMI\VBPF1Lib\FrmDebugOfferings.Designer.cs">
       <DependentUpon>FrmDebugOfferings.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KMI\VBPF1Lib\frmShopImproved.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KMI\VBPF1Lib\frmShopImproved.Designer.cs">
-      <DependentUpon>frmShopImproved.cs</DependentUpon>
     </Compile>
     <Compile Include="KMI\VBPF1Lib\StrTyp_Key.cs" />
     <Compile Include="Properties\Resources.cs" />
