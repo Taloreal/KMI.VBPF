@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="KMI\VBPF1Lib\Custom_Controls\CategoryListing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KMI\VBPF1Lib\Custom_Controls\CategoryListing.Designer.cs">
+      <DependentUpon>CategoryListing.cs</DependentUpon>
+    </Compile>
     <Compile Include="KMI\VBPF1Lib\Custom_Controls\QuantityListing.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -333,9 +339,6 @@
     </Compile>
     <Compile Include="KMI\VBPF1Lib\Dwelling.cs" />
     <Compile Include="KMI\VBPF1Lib\Car.cs" />
-    <Compile Include="KMI\VBPF1Lib\Custom_Controls\CategoryListing.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="KMI\VBPF1Lib\Custom_Controls\ItemListing.cs">
       <SubType>UserControl</SubType>
     </Compile>

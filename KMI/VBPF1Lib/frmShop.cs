@@ -163,9 +163,10 @@ namespace KMI.VBPF1Lib {
 
         public void CreateCategoryListings(ref int num) {
             foreach (List<PurchasableItem> list in this.Categorized) {
-                CategoryListing listing = new CategoryListing(list) {
-                    Top = num * base.Height
-                };
+                CategoryListing listing = new CategoryListing();
+                //CatListing listing = new CatListing();
+                listing.Top = num * base.Height;
+                listing.AddPurchasableItems(list);
                 listing.BeginUpdate();
                 if ((num % 2) == 1) { listing.BackColor = Color.LightGray; }
                 this.panListings.Controls.Add(listing);
@@ -264,8 +265,8 @@ namespace KMI.VBPF1Lib {
 
         private void FrmShop_Load(object sender, EventArgs e) {
             foreach (Control c in panListings.Controls) {
-                if (c is CategoryListing) { 
-                    CategoryListing cat = c as CategoryListing;
+                if (c is CatListing) { 
+                    CatListing cat = c as CatListing;
                     cat.EndUpdate();
                 }
             }

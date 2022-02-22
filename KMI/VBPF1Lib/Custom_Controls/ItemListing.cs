@@ -10,16 +10,20 @@ namespace KMI.VBPF1Lib {
     public class ItemListing : UserControl {
 
         public CheckBox chkBuy;
+
         protected Container components;
+
         protected Label labDescription;
         protected Label label4;
         protected Label labImage;
         public Label labName;
         protected Label labOnSale;
         protected Label labPrice;
+
         public Panel panel1;
         public Panel panel2;
         public Panel panel3;
+
         public PurchasableItem purchasableItem;
 
         public ItemListing() {
@@ -108,33 +112,33 @@ namespace KMI.VBPF1Lib {
             this.labPrice.Font = new Font("Microsoft Sans Serif", 12f, FontStyle.Bold, GraphicsUnit.Point, 0);
             this.labPrice.Location = new Point(4, 15);
             this.labPrice.Name = "labPrice";
-            this.labPrice.Size = new Size(0x54, 0x10);
+            this.labPrice.Size = new Size(84, 16);
             this.labPrice.TabIndex = 0;
             this.labPrice.TextAlign = ContentAlignment.MiddleRight;
             this.panel3.Controls.Add(this.labName);
             this.panel3.Controls.Add(this.labDescription);
             this.panel3.Dock = DockStyle.Fill;
-            this.panel3.Location = new Point(0xa8, 0);
+            this.panel3.Location = new Point(168, 0);
             this.panel3.Name = "panel3";
             this.panel3.Padding = new Padding(15);
-            this.panel3.Size = new Size(0xe0, 0x68);
+            this.panel3.Size = new Size(224, 104);
             this.panel3.TabIndex = 2;
             this.labName.Font = new Font("Microsoft Sans Serif", 12f, FontStyle.Bold, GraphicsUnit.Point, 0);
             this.labName.Location = new Point(8, 4);
             this.labName.Name = "labName";
-            this.labName.Size = new Size(0xd0, 0x1c);
+            this.labName.Size = new Size(208, 28);
             this.labName.TabIndex = 1;
             this.labDescription.Font = new Font("Microsoft Sans Serif", 12f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            this.labDescription.Location = new Point(8, 0x24);
+            this.labDescription.Location = new Point(8, 36);
             this.labDescription.Name = "labDescription";
-            this.labDescription.Size = new Size(0xcc, 0x38);
+            this.labDescription.Size = new Size(204, 56);
             this.labDescription.TabIndex = 0;
             base.Controls.Add(this.panel3);
             base.Controls.Add(this.panel2);
             base.Controls.Add(this.panel1);
             base.Margin = new Padding(0);
             base.Name = "ItemListing";
-            base.Size = new Size(0x1f0, 0x68);
+            base.Size = new Size(496, 104);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
