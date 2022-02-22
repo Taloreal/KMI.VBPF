@@ -82,9 +82,10 @@ namespace KMI.VBPF1Lib {
             this.Controls.Add(QuantListing);
             QuantListing.Location = new Point(0, 0);
             QuantListing.Visible = true;
-            for (int i = 0; i != this.panListings.Controls.Count; i++) {
-                if (((ItemListing) this.panListings.Controls[i]).purchasableItem.ImageName.Contains(RemoveName)) {
-                    this.panListings.Controls.RemoveAt(i);
+            for (int i = 0; i != panListings.Controls.Count; i++) {
+                if ((panListings.Controls[i] is IShopable) == false) { continue; }
+                if (((IShopable)panListings.Controls[i]).PurchaseItem.ImageName.Contains(RemoveName)) {
+                    panListings.Controls.RemoveAt(i);
                     i--;
                 }
             }
@@ -118,13 +119,10 @@ namespace KMI.VBPF1Lib {
             if (ActiveIndex != -1 && QuantListing.chkBuy.Checked) {
                 items.Add(this.Purchase(out cost, out called).Name);
             }
-            foreach (ItemListing listing in this.panListings.Controls) {
-                if (listing.chkBuy.Checked) {
-                    items.Add(listing.purchasableItem.Name);
-                    called = called + listing.labName.Text + ", ";
-                    cost += listing.purchasableItem.Price;
-                }
-            }
+            List<IShopable> toBuy = panListings.Controls.FindAll<IShopable>(l => l.Buying);
+            toBuy.ForEach(i => items.Add(i.PurchaseItem.Name));
+            toBuy.ForEach(i => cost += i.PurchaseItem.Price);
+            toBuy.ForEach(i => called += i.ItemName + ", ");
             if (items.Count > 0) {
                 if (!this.CheckSimilarPurchase(items)) {
                     called = Utilities.FormatCommaSeries(called);
@@ -265,8 +263,8 @@ namespace KMI.VBPF1Lib {
 
         private void FrmShop_Load(object sender, EventArgs e) {
             foreach (Control c in panListings.Controls) {
-                if (c is CatListing) { 
-                    CatListing cat = c as CatListing;
+                if (c is CategoryListing) {
+                    CategoryListing cat = c as CategoryListing;
                     cat.EndUpdate();
                 }
             }

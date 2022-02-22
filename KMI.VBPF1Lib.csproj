@@ -57,6 +57,7 @@
     <Compile Include="KMI\VBPF1Lib\Custom_Controls\CategoryListing.Designer.cs">
       <DependentUpon>CategoryListing.cs</DependentUpon>
     </Compile>
+    <Compile Include="KMI\VBPF1Lib\Custom_Controls\IShopable.cs" />
     <Compile Include="KMI\VBPF1Lib\Custom_Controls\QuantityListing.cs">
       <SubType>UserControl</SubType>
     </Compile>

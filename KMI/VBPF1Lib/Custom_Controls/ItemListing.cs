@@ -7,7 +7,7 @@ using KMI.Utility;
 
 namespace KMI.VBPF1Lib {
 
-    public class ItemListing : UserControl {
+    public class ItemListing : UserControl, IShopable {
 
         public CheckBox chkBuy;
 
@@ -144,6 +144,14 @@ namespace KMI.VBPF1Lib {
             this.panel3.ResumeLayout(false);
             base.ResumeLayout(false);
         }
+
+
+        public bool Buying => chkBuy.Checked;
+
+        public string ItemName => labName.Text;
+
+        public PurchasableItem PurchaseItem => purchasableItem;
+
     }
 }
 

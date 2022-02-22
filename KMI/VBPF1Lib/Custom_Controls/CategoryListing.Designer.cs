@@ -147,16 +147,16 @@ namespace KMI.VBPF1Lib {
 
         #endregion
 
-        private CheckBox chkBuy;
-        private ComboBox Choices;
-        private Label labDescription;
-        private Label label4;
-        private Label labImage;
-        private Label labName;
-        private Label labOnSale;
-        private Label labPrice;
-        private Panel panel1;
-        private Panel panel2;
-        private Panel panel3;
+        public CheckBox chkBuy;
+        public ComboBox Choices;
+        public Label labDescription;
+        public Label label4;
+        public Label labImage;
+        public Label labName;
+        public Label labOnSale;
+        public Label labPrice;
+        public Panel panel1;
+        public Panel panel2;
+        public Panel panel3;
     }
 }

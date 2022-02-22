@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Drawing;
+using System.Collections;
+using System.ComponentModel;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace KMI.Utility {
 
@@ -90,58 +94,78 @@ namespace KMI.Utility {
             return false;
         }
 
-        public static void ForEach<T>(T[] arr, Action<T, int> toDo)
-        {
-            for (int i = 0; i < arr.Length; i++)
-            {
-                toDo(arr[i], i);
+        public static void ForEach<T>(IEnumerable<T> collection, Action<T> toDo) {
+            foreach (T item in collection) { 
+                toDo(item);
             }
         }
 
-        public static void For<T>(T[] arr, Action<int> toDo, ForLoopDirection direction = ForLoopDirection.Forward)
-        {
+        public static void ForEach<T>(IEnumerable<T> collection, Action<T, int> toDo) {
+            int ndx = 0;
+            foreach (T item in collection) { 
+                toDo(item, ndx);
+                ndx += 1;
+            }
+        }
+
+        public static void For<T>(T[] arr, Action<int> toDo, ForLoopDirection direction = ForLoopDirection.Forward) {
             int start = direction == ForLoopDirection.Forward ? 0 : arr.Length - 1;
             int end = direction == ForLoopDirection.Forward ? arr.Length : -1;
             int iterator = direction == ForLoopDirection.Forward ? 1 : -1;
-            for (int i = start; direction == ForLoopDirection.Forward ? i < end : i > end; i += iterator)
-            {
+            for (int i = start; direction == ForLoopDirection.Forward ? i < end : i > end; i += iterator) {
                 toDo(i);
             }
         }
 
-        public static T[] ShrinkArray<T>(T[] arr, int maxSize)
-        {
+        public static T[] ShrinkArray<T>(T[] arr, int maxSize) {
             if (arr.Length <= maxSize) { return arr; }
             T[] newArray = new T[maxSize];
-            for (int i = 0; i < maxSize; i++)
-            {
+            for (int i = 0; i < maxSize; i++) {
                 newArray[i] = arr[i];
             }
             return newArray;
         }
 
-        public static T[] GrowArray<T>(T[] arr, int minSize)
-        {
+        public static T[] GrowArray<T>(T[] arr, int minSize) {
             if (arr.Length >= minSize) { return arr; }
             T[] newArray = new T[minSize];
-            for (int i = 0; i < minSize; i++)
-            {
+            for (int i = 0; i < minSize; i++) {
                 newArray[i] = i < arr.Length ? arr[i] : default(T);
             }
             return newArray;
         }
 
-        public static bool SameValues<T>(T[] arr, T[] other)
-        {
+        public static bool SameValues<T>(T[] arr, T[] other) {
             if (arr.Length != other.Length) { return false; }
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i].Equals(other[i]) == false)
-                {
+            for (int i = 0; i < arr.Length; i++) {
+                if (arr[i].Equals(other[i]) == false) {
                     return false;
                 }
             }
             return true;
+        }
+
+        public static List<T> FindAll<T>(this IEnumerable controls) where T : class {
+            List<T> items = new List<T>();
+            foreach (object item in controls) {
+                if (item is T) {
+                    items.Add(item as T);
+                }
+            }
+            return items;
+        }
+
+        public static List<T> FindAll<T>(this IEnumerable collection, Func<T, bool> predicate) where T : class {
+            List<T> items = new List<T>();
+            foreach (object item in collection) {
+                if (item is T) { 
+                    T obj = item as T;
+                    if (predicate(obj)) {
+                        items.Add(obj);
+                    }
+                }
+            }
+            return items;
         }
     }
 }

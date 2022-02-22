@@ -12,11 +12,11 @@ using KMI.Utility;
 
 namespace KMI.VBPF1Lib {
 
-    public partial class CategoryListing : UserControl {
+    public partial class CategoryListing : UserControl, IShopable {
 
-        private int WorkingIndex = 0;
-        private PurchasableItem purchasableItem;
-        private List<PurchasableItem> CategoryItems = new List<PurchasableItem>();
+        public int WorkingIndex = 0;
+        public PurchasableItem purchasableItem;
+        public List<PurchasableItem> CategoryItems = new List<PurchasableItem>();
 
         public CategoryListing() {
             InitializeComponent();
@@ -50,7 +50,6 @@ namespace KMI.VBPF1Lib {
             UpdateInterface();
         }
 
-
         private void UpdateInterface() {
             labDescription.Text = purchasableItem.Description;
             labImage.Image = A.Resources.GetImage(purchasableItem.ImageName);
@@ -62,5 +61,11 @@ namespace KMI.VBPF1Lib {
             }
         }
 
+
+        public bool Buying => chkBuy.Checked;
+
+        public string ItemName => labName.Text;
+
+        public PurchasableItem PurchaseItem => purchasableItem;
     }
 }
